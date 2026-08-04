@@ -2,8 +2,11 @@ name: Weekly Flock Misuse Tracker Update
 
 on:
   schedule:
-    # Every Monday at 13:00 UTC (~9am US Eastern). Adjust as you like.
-    - cron: "0 13 * * 1"
+    # Every other day at 13:00 UTC (~9am US Eastern). Cron has no native
+    # "every N days" — this uses a day-of-month step, which is very slightly
+    # imprecise across month boundaries (odd-numbered days can occasionally
+    # run twice in a row, e.g. the 31st then the 1st). Close enough for this.
+    - cron: "0 13 */2 * *"
   workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
 
 permissions:

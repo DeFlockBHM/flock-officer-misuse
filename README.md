@@ -6,56 +6,20 @@ convicted** for misusing Flock Safety ALPR (automated license plate reader)
 technology.
 
 - `data/cases.json` — the structured, running dataset. Seeded from a research
-  pass current to **2026-07-30**.
-- `data/weekly-log/` — one dated markdown report per weekly run, summarizing
-  what changed.
+  pass current to **2026-07-30**, and kept current automatically every other
+  day (see below).
+- `data/weekly-log/` — one dated markdown report per automated run,
+  summarizing what changed.
 - `scripts/update_tracker.py` — calls the Claude API (with the web search
   tool) to look for new developments and merges them into `cases.json`.
-- `.github/workflows/weekly-update.yml` — runs the script every Monday and
-  commits any changes automatically.
 
-## Setup (one-time)
+## How it stays current
 
-1. **Create the repo.** Push this folder to a new GitHub repository (public
-   or private — a public repo gets free Actions minutes; a private repo gets
-   2,000 free minutes/month, which is far more than this needs).
-
-   ```bash
-   cd flock-misuse-tracker
-   git init
-   git add .
-   git commit -m "Initial commit: seed dataset + weekly tracker"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo>.git
-   git push -u origin main
-   ```
-
-2. **Add your Anthropic API key as a secret.**
-   In the GitHub repo: **Settings → Secrets and variables → Actions → New
-   repository secret**
-   - Name: `ANTHROPIC_API_KEY`
-   - Value: your key from [console.anthropic.com](https://console.anthropic.com)
-
-   Usage is billed to your own Anthropic API account. Each weekly run does a
-   handful of web searches and one model call — typically well under $0.10/run.
-
-3. **(Optional) Test it immediately** instead of waiting for Monday: go to the
-   **Actions** tab → "Weekly Flock Misuse Tracker Update" → **Run workflow**.
-
-That's it — from here it runs unattended every Monday at 13:00 UTC, appends
-any new cases or status changes to `data/cases.json`, and writes a dated
-report to `data/weekly-log/`.
-
-## Adjusting the schedule
-
-Edit the `cron` line in `.github/workflows/weekly-update.yml`. Cron syntax is
-`minute hour day month weekday`, all in UTC — e.g. `0 13 * * 1` = every Monday
-at 13:00 UTC.
-
-## Adjusting the model
-
-Set the `ANTHROPIC_MODEL` env var in the workflow file if you want to pin a
-specific model string (defaults to `claude-sonnet-5`).
+A scheduled job re-checks the Flock misuse story every other day, searching
+for developments in roughly the last 7-10 days, and appends or updates
+entries in `data/cases.json`. Everything it writes lands as `verified: false`
+— see **Data quality / review model** below — and a summary of each run is
+saved to `data/weekly-log/`.
 
 ## Data schema
 
@@ -74,7 +38,7 @@ they overlap only partially.
 
 ## Data quality / review model
 
-Everything the weekly script writes is `verified: false` by default,
+Everything the automated script writes is `verified: false` by default,
 including auto-linked cases (e.g. a newly-named officer matched to an
 existing unnamed sweep). The script auto-links its best guess rather than
 skipping ambiguous matches, and flags anything where an incident's
@@ -90,6 +54,6 @@ entries in `data/cases.json`.
 - Coverage depends entirely on what's been publicly reported; most misuse is
   believed to go undetected, so this dataset is a documented floor, not a
   true total.
-- The weekly search window is narrow (~7-10 days) by design, to keep runs
+- The search window per run is narrow (~7-10 days) by design, to keep runs
   cheap and reports incremental — it isn't meant to re-verify the entire
   dataset each time.
