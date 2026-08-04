@@ -1,0 +1,1692 @@
+{
+  "schema_version": 2,
+  "last_updated": "2026-08-03",
+  "notes": "Seeded from an initial research pass (sources current to 2026-07-30). This file is the running dataset; the weekly workflow appends/updates entries and should avoid duplicating existing 'id' values. Aggregate 'as of' figures (e.g. IJ's tally, Georgia's count) should be treated as external trackers to check against, not summed with this list. Reconciled 2026-08-03 against a TechSpot summary of a WaPo investigation citing 'at least 50 officers nationally, 46 tied to Flock specifically': counting individual officers across cases[] (including bundled multi-officer entries) yields 48 total, 46 excluding the 2 entries already flagged as unconfirmed-Flock-vendor (Gordon-TN, Bryan-IL) - closely matching WaPo's figures, so no major gaps found. The one new lead from that piece (an unnamed GA police chief case) couldn't be turned into a case for lack of identifying detail; flagged instead as a note on the Steffman incident pending manual review.",
+  "aggregate_trackers": [
+    {
+      "name": "Institute for Justice - Plate Privacy Project stalking tally",
+      "figure": "at least 28",
+      "scope": "romantic-partner stalking cases nationwide",
+      "as_of": "2026-07-25",
+      "url": "https://ij.org/police-have-reportedly-used-license-plate-readers-to-stalk-romantic-interests-at-least-14-times-in-recent-years/"
+    },
+    {
+      "name": "Georgia audit-driven arrests (Reason / USA Today)",
+      "figure": "17-18",
+      "scope": "Georgia officers arrested for Flock misuse, mostly non-romantic 'personal use'",
+      "as_of": "2026-07-24",
+      "url": "https://www.jalopnik.com/2220313/georgia-cops-keep-getting-arrested-for-illegal-flock-camera-use/"
+    },
+    {
+      "name": "Washington Post investigation (via TechSpot summary)",
+      "figure": "at least 50 officers nationwide accused/charged; 46 of those cases involved Flock's system specifically",
+      "scope": "Officers nationwide accused of or charged with misusing license-plate reader systems; also cites Roseville, CA internal review finding 1,000+ false positives over two years",
+      "as_of": "2026-08-03",
+      "url": "https://www.techspot.com/news/113325-dozens-police-officers-accused-using-license-plate-cameras.html"
+    }
+  ],
+  "incidents": [
+    {
+      "id": "vanny-2025-riverside-ca-incident",
+      "state": "CA",
+      "agencies": [
+        "Riverside County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-02-06",
+        "end": "2026-02-06"
+      },
+      "status": "fully_identified",
+      "source_urls": [
+        "https://kesq.com/news/crime/2026/02/06/ex-rso-deputy-who-stalked-former-fiancee-harassed-volunteer-sentenced/"
+      ],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "mcsherry-pa-incident",
+      "state": "PA",
+      "agencies": [
+        "Frazer Township PD"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "",
+        "end": ""
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "heiar-2023-kechi-ks-incident",
+      "state": "KS",
+      "agencies": [
+        "Kechi Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2023",
+        "end": "2023"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "josett-2026-costa-mesa-ca-incident",
+      "state": "CA",
+      "agencies": [
+        "Costa Mesa Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-04",
+        "end": "2026-04"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "ayala-2026-milwaukee-wi-incident",
+      "state": "WI",
+      "agencies": [
+        "Milwaukee Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-15",
+        "end": "2026-07-15"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "hall-niceville-fl-incident",
+      "state": "FL",
+      "agencies": [
+        "Niceville Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "",
+        "end": ""
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-incident",
+      "state": "GA",
+      "agencies": [
+        "Albany Police Department"
+      ],
+      "reported_count": 5,
+      "identified_count": 5,
+      "date_range": {
+        "start": "2026-07-07",
+        "end": "2026-07-07"
+      },
+      "status": "fully_identified",
+      "source_urls": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "richmond-county-ga-4deputies-2026-incident",
+      "state": "GA",
+      "agencies": [
+        "Richmond County Sheriff's Office"
+      ],
+      "reported_count": 4,
+      "identified_count": 4,
+      "date_range": {
+        "start": "2026-07-20",
+        "end": "2026-07-20"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cherokee-county-ga-3deputies-2026-incident",
+      "state": "GA",
+      "agencies": [
+        "Cherokee County Sheriff's Office"
+      ],
+      "reported_count": 3,
+      "identified_count": 3,
+      "date_range": {
+        "start": "2026-06-22",
+        "end": "2026-06-22"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "salawu-2026-dekalb-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "DeKalb County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-18",
+        "end": "2026-07-18"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "goss-2026-greene-county-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "Greene County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-08",
+        "end": "2026-07-08"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "fayetteville-ga-3officers-2026-incident",
+      "state": "GA",
+      "agencies": [
+        "Fayetteville Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 0,
+      "date_range": {
+        "start": "2026-07-17",
+        "end": "2026-07-17"
+      },
+      "status": "unidentified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "forte-2026-conyers-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "Conyers Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-23",
+        "end": "2026-07-23"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "steffman-braselton-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "Braselton Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2025",
+        "end": "2025"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "WaPo/TechSpot (2026-08-03, https://www.techspot.com/news/113325-dozens-police-officers-accused-using-license-plate-cameras.html) describes an unnamed GA police chief who ran a woman's plate 'hundreds of queries over more than a year,' discovered after she confronted him directly. No name/agency given in that piece, so this may or may not be the same person as Steffman - needs manual check against original Braselton reporting before treating as confirmed duplicate or as a distinct case.",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "rozar-coffee-county-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "Coffee County (former deputy)"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "downer-gwinnett-ga-incident",
+      "state": "GA",
+      "agencies": [
+        "Gwinnett County"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "chapman-2026-milwaukee-wi-incident",
+      "state": "WI",
+      "agencies": [
+        "Milwaukee Police Department (Internal Affairs)"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07",
+        "end": "2026-07"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "almany-2026-sumter-fl-incident",
+      "state": "FL",
+      "agencies": [
+        "Sumter County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-23",
+        "end": "2026-07-23"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "elliott-2026-charlotte-nc-incident",
+      "state": "NC",
+      "agencies": [
+        "Charlotte-Mecklenburg Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-07-30",
+        "end": "2026-07-30"
+      },
+      "status": "fully_identified",
+      "source_urls": [
+        "https://www.wsoctv.com/news/local/sbi-cmpd-officer-used-flock-provide-undercover-officers-plate-drug-target/DLFDA7C645DUPJPYFBFLMZIOAQ/"
+      ],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "brown-2025-orange-city-fl-incident",
+      "state": "FL",
+      "agencies": [
+        "Orange City Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2025",
+        "end": "2025"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cedeno-louisville-ky-incident",
+      "state": "KY",
+      "agencies": [
+        "Louisville Metro Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2025",
+        "end": "2025"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "rector-2026-bonner-springs-ks-incident",
+      "state": "KS",
+      "agencies": [
+        "Bonner Springs (unspecified agency)"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-03",
+        "end": "2026-03"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cole-clark-2024-matteson-il-incident",
+      "state": "IL",
+      "agencies": [
+        "Matteson Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2024",
+        "end": "2024"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "gordon-2024-shelby-county-tn-incident",
+      "state": "TN",
+      "agencies": [
+        "Shelby County"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2024",
+        "end": "2024"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "morales-2025-menasha-wi-incident",
+      "state": "WI",
+      "agencies": [
+        "Menasha Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2025",
+        "end": "2025"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "kenosha-deputy-2025-wi-incident",
+      "state": "WI",
+      "agencies": [
+        "Kenosha County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 0,
+      "date_range": {
+        "start": "2025",
+        "end": "2025"
+      },
+      "status": "unidentified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "copp-2026-prairie-grove-il-incident",
+      "state": "IL",
+      "agencies": [
+        "Prairie Grove Police Department (also Holiday Hills Police Chief)"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "bryan-2026-winnebago-il-incident",
+      "state": "IL",
+      "agencies": [
+        "Winnebago County"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "roman-2026-monroe-county-fl-incident",
+      "state": "FL",
+      "agencies": [
+        "Monroe County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "palitz-2026-pasadena-tx-incident",
+      "state": "TX",
+      "agencies": [
+        "Pasadena Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "lynch-echeverry-2026-greer-sc-incident",
+      "state": "SC",
+      "agencies": [
+        "Greer Police Department"
+      ],
+      "reported_count": 2,
+      "identified_count": 2,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "alabama-2officers-2026-incident",
+      "state": "AL",
+      "agencies": [
+        "Moody PD / Springville PD"
+      ],
+      "reported_count": 1,
+      "identified_count": 0,
+      "date_range": {
+        "start": "2026",
+        "end": "2026"
+      },
+      "status": "unidentified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "nygaard-2023-sedgwick-ks-incident",
+      "state": "KS",
+      "agencies": [
+        "Sedgwick Police Department"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2023",
+        "end": "2023"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "oppedyk-2025-jerome-county-id-incident",
+      "state": "ID",
+      "agencies": [
+        "Jerome County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 1,
+      "date_range": {
+        "start": "2026-04",
+        "end": "2026-04"
+      },
+      "status": "fully_identified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "fort-bend-lieutenant-2022-tx-incident",
+      "state": "TX",
+      "agencies": [
+        "Fort Bend County Sheriff's Office"
+      ],
+      "reported_count": 1,
+      "identified_count": 0,
+      "date_range": {
+        "start": "2022",
+        "end": "2022"
+      },
+      "status": "unidentified",
+      "source_urls": [],
+      "notes": "",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    }
+  ],
+  "cases": [
+    {
+      "id": "vanny-2025-riverside-ca",
+      "name": "Alexander Ravy Vanny",
+      "agency": "Riverside County Sheriff's Office",
+      "state": "CA",
+      "role": "Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used department Flock system to track ex-fiancee's friend; part of broader stalking/CSAM prosecution.",
+      "outcomes": [
+        "fired",
+        "arrested",
+        "convicted",
+        "sentenced"
+      ],
+      "outcome_detail": "Convicted Dec 2025 on stalking, CSAM possession, unauthorized use of protected electronic data; sentenced Feb 6 2026 to 6 years state prison.",
+      "status": "convicted",
+      "last_updated": "2026-02-06",
+      "sources": [
+        "https://kesq.com/news/crime/2026/02/06/ex-rso-deputy-who-stalked-former-fiancee-harassed-volunteer-sentenced/"
+      ],
+      "parent_incident_id": "vanny-2025-riverside-ca-incident",
+      "content_hash": "sha256:5fc50a455733cd4a96885eb02c183a2425db5e0096b6c364189c56fb875940b9",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "mcsherry-pa",
+      "name": "Michael McSherry",
+      "agency": "Frazer Township PD",
+      "state": "PA",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used license plate readers to track estranged wife and her mother.",
+      "outcomes": [
+        "convicted"
+      ],
+      "outcome_detail": "Pleaded guilty to stalking; sentenced 11.5-23 months jail + 5 years probation.",
+      "status": "convicted",
+      "last_updated": null,
+      "sources": [],
+      "parent_incident_id": "mcsherry-pa-incident",
+      "content_hash": "sha256:7f4814970608e72e347e53be723cd53ad1068240e8a2c663bab0305c8b203a03",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "heiar-2023-kechi-ks",
+      "name": "Victor Heiar",
+      "agency": "Kechi Police Department",
+      "state": "KS",
+      "role": "Lieutenant",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used Flock to track estranged wife.",
+      "outcomes": [
+        "convicted",
+        "decertified"
+      ],
+      "outcome_detail": "Pleaded guilty 2023 to computer crime and stalking; 18 months probation; certification revoked.",
+      "status": "convicted",
+      "last_updated": "2023",
+      "sources": [],
+      "parent_incident_id": "heiar-2023-kechi-ks-incident",
+      "content_hash": "sha256:e0740af86b0a3ef0f663b3d12a7f10ca9eb56e4b6753ab4385c1b12afb4feecd",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "josett-2026-costa-mesa-ca",
+      "name": "Robert Jay Josett",
+      "agency": "Costa Mesa Police Department",
+      "state": "CA",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used Flock and CLETS to track mistress, her boyfriends, and his own wife; continued access while on leave.",
+      "outcomes": [
+        "convicted"
+      ],
+      "outcome_detail": "Pleaded guilty April 2026 to 3 misdemeanors; 3 years probation + 52-week DV program; POST decertification pending.",
+      "status": "convicted",
+      "last_updated": "2026-04",
+      "sources": [],
+      "parent_incident_id": "josett-2026-costa-mesa-ca-incident",
+      "content_hash": "sha256:7474e5c9a0edb7d434fe9614259472832dce6526450de84bad8b68be4568d498",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "ayala-2026-milwaukee-wi",
+      "name": "Josue Ayala",
+      "agency": "Milwaukee Police Department",
+      "state": "WI",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used Flock ~179 times over two months to track a woman he was dating and her ex-partner.",
+      "outcomes": [
+        "resigned",
+        "convicted"
+      ],
+      "outcome_detail": "Resigned March 2026; pleaded guilty June 11 2026 to attempted misconduct in public office; sentenced July 15 2026 to 1 year probation + $500 fine.",
+      "status": "convicted",
+      "last_updated": "2026-07-15",
+      "sources": [],
+      "parent_incident_id": "ayala-2026-milwaukee-wi-incident",
+      "content_hash": "sha256:71e82688be3fd8df22f14e6552e28d92a918ff0b4774b84536f7192ad400eb43",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "hall-niceville-fl",
+      "name": "Coty Wayne Hall",
+      "agency": "Niceville Police Department",
+      "state": "FL",
+      "role": "Officer",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used Flock to track another officer and that officer's spouse; found via internal audit.",
+      "outcomes": [
+        "fired",
+        "convicted"
+      ],
+      "outcome_detail": "Fired after October 2025 arrest; pleaded no contest; probation, adjudication withheld.",
+      "status": "convicted",
+      "last_updated": null,
+      "sources": [],
+      "parent_incident_id": "hall-niceville-fl-incident",
+      "content_hash": "sha256:41823e23721a0d0e878fbf77ca67d97e1f05f6de1a9d903349aa7066b44c8ded",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-tytianna-davis",
+      "name": "Tytianna Davis",
+      "agency": "Albany Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used retained Flock data for non-law-enforcement purposes; GBI investigation aided by Flock Audit Assistance tool.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with misuse of license plate data and violation of oath of office.",
+      "status": "charged",
+      "last_updated": "2026-07-07",
+      "sources": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "parent_incident_id": "albany-ga-5officers-2026-incident",
+      "content_hash": "sha256:69deb8d27037d146748615064dd6d5360031e4741827ea8067718883e902e2f8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-jade-jackson",
+      "name": "Jade Jackson",
+      "agency": "Albany Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used retained Flock data for non-law-enforcement purposes; GBI investigation aided by Flock Audit Assistance tool.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with misuse of license plate data and violation of oath of office.",
+      "status": "charged",
+      "last_updated": "2026-07-07",
+      "sources": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "parent_incident_id": "albany-ga-5officers-2026-incident",
+      "content_hash": "sha256:69deb8d27037d146748615064dd6d5360031e4741827ea8067718883e902e2f8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-nicholas-richardson",
+      "name": "Nicholas Richardson",
+      "agency": "Albany Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used retained Flock data for non-law-enforcement purposes; GBI investigation aided by Flock Audit Assistance tool.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with misuse of license plate data and violation of oath of office.",
+      "status": "charged",
+      "last_updated": "2026-07-07",
+      "sources": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "parent_incident_id": "albany-ga-5officers-2026-incident",
+      "content_hash": "sha256:69deb8d27037d146748615064dd6d5360031e4741827ea8067718883e902e2f8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-brittney-smith",
+      "name": "Brittney Smith",
+      "agency": "Albany Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used retained Flock data for non-law-enforcement purposes; GBI investigation aided by Flock Audit Assistance tool.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with misuse of license plate data and violation of oath of office.",
+      "status": "charged",
+      "last_updated": "2026-07-07",
+      "sources": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "parent_incident_id": "albany-ga-5officers-2026-incident",
+      "content_hash": "sha256:69deb8d27037d146748615064dd6d5360031e4741827ea8067718883e902e2f8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "albany-ga-5officers-2026-issac-whitus",
+      "name": "Issac Whitus",
+      "agency": "Albany Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used retained Flock data for non-law-enforcement purposes; GBI investigation aided by Flock Audit Assistance tool.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with misuse of license plate data and violation of oath of office.",
+      "status": "charged",
+      "last_updated": "2026-07-07",
+      "sources": [
+        "https://www.cbsnews.com/atlanta/news/5-georgia-officers-fired-arrested-for-misusing-access-to-citys-flock-cameras-gbi-says/"
+      ],
+      "parent_incident_id": "albany-ga-5officers-2026-incident",
+      "content_hash": "sha256:69deb8d27037d146748615064dd6d5360031e4741827ea8067718883e902e2f8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "richmond-county-ga-4deputies-2026-jaquarius-yarbrough",
+      "name": "Jaquarius Yarbrough",
+      "agency": "Richmond County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputies/Lieutenant/Investigator",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Yarbrough allegedly accessed system 1,639 times to track a woman; other three each 100+ times for personal reasons.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Yarbrough arrested June 26 2026; McKenzie, Hoskins, Johnson arrested July 20 2026.",
+      "status": "charged",
+      "last_updated": "2026-07-20",
+      "sources": [],
+      "parent_incident_id": "richmond-county-ga-4deputies-2026-incident",
+      "content_hash": "sha256:19b806361099c7f0cc30c8c0abf1c1637e1457c8a60ebeb64d7aef702ae9b151",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "richmond-county-ga-4deputies-2026-john-mckenzie",
+      "name": "John McKenzie",
+      "agency": "Richmond County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputies/Lieutenant/Investigator",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Yarbrough allegedly accessed system 1,639 times to track a woman; other three each 100+ times for personal reasons.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Yarbrough arrested June 26 2026; McKenzie, Hoskins, Johnson arrested July 20 2026.",
+      "status": "charged",
+      "last_updated": "2026-07-20",
+      "sources": [],
+      "parent_incident_id": "richmond-county-ga-4deputies-2026-incident",
+      "content_hash": "sha256:19b806361099c7f0cc30c8c0abf1c1637e1457c8a60ebeb64d7aef702ae9b151",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "richmond-county-ga-4deputies-2026-curtis-hoskins",
+      "name": "Curtis Hoskins",
+      "agency": "Richmond County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputies/Lieutenant/Investigator",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Yarbrough allegedly accessed system 1,639 times to track a woman; other three each 100+ times for personal reasons.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Yarbrough arrested June 26 2026; McKenzie, Hoskins, Johnson arrested July 20 2026.",
+      "status": "charged",
+      "last_updated": "2026-07-20",
+      "sources": [],
+      "parent_incident_id": "richmond-county-ga-4deputies-2026-incident",
+      "content_hash": "sha256:19b806361099c7f0cc30c8c0abf1c1637e1457c8a60ebeb64d7aef702ae9b151",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "richmond-county-ga-4deputies-2026-joshua-johnson",
+      "name": "Joshua Johnson",
+      "agency": "Richmond County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputies/Lieutenant/Investigator",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Yarbrough allegedly accessed system 1,639 times to track a woman; other three each 100+ times for personal reasons.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Yarbrough arrested June 26 2026; McKenzie, Hoskins, Johnson arrested July 20 2026.",
+      "status": "charged",
+      "last_updated": "2026-07-20",
+      "sources": [],
+      "parent_incident_id": "richmond-county-ga-4deputies-2026-incident",
+      "content_hash": "sha256:19b806361099c7f0cc30c8c0abf1c1637e1457c8a60ebeb64d7aef702ae9b151",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cherokee-county-ga-3deputies-2026-cynthia-jodesty",
+      "name": "Cynthia Jodesty",
+      "agency": "Cherokee County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputy/Lieutenant/Sergeant",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Felony violation of oath of office and misdemeanor unlawful retention of license plate data.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Jodesty arrested June 12 2026; Bryant and Creeden arrested June 22 2026; $3,812 bonds.",
+      "status": "charged",
+      "last_updated": "2026-06-22",
+      "sources": [],
+      "parent_incident_id": "cherokee-county-ga-3deputies-2026-incident",
+      "content_hash": "sha256:1fec505b78bafada667c7ac6b838c06e16546049c812943bc5ec98aa01b8483b",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cherokee-county-ga-3deputies-2026-chris-bryant",
+      "name": "Chris Bryant",
+      "agency": "Cherokee County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputy/Lieutenant/Sergeant",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Felony violation of oath of office and misdemeanor unlawful retention of license plate data.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Jodesty arrested June 12 2026; Bryant and Creeden arrested June 22 2026; $3,812 bonds.",
+      "status": "charged",
+      "last_updated": "2026-06-22",
+      "sources": [],
+      "parent_incident_id": "cherokee-county-ga-3deputies-2026-incident",
+      "content_hash": "sha256:1fec505b78bafada667c7ac6b838c06e16546049c812943bc5ec98aa01b8483b",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cherokee-county-ga-3deputies-2026-mike-creeden",
+      "name": "Mike Creeden",
+      "agency": "Cherokee County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputy/Lieutenant/Sergeant",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Felony violation of oath of office and misdemeanor unlawful retention of license plate data.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Jodesty arrested June 12 2026; Bryant and Creeden arrested June 22 2026; $3,812 bonds.",
+      "status": "charged",
+      "last_updated": "2026-06-22",
+      "sources": [],
+      "parent_incident_id": "cherokee-county-ga-3deputies-2026-incident",
+      "content_hash": "sha256:1fec505b78bafada667c7ac6b838c06e16546049c812943bc5ec98aa01b8483b",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "salawu-2026-dekalb-ga",
+      "name": "Kabiru Salawu",
+      "agency": "DeKalb County Sheriff's Office",
+      "state": "GA",
+      "role": "Sergeant",
+      "misuse_type": "personal_use",
+      "allegation_summary": "17-year veteran; felony violation of oath of office and misdemeanor misuse of license plate data.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Arrested July 18 2026; noted as Georgia's 17th arrest in this wave.",
+      "status": "charged",
+      "last_updated": "2026-07-18",
+      "sources": [],
+      "parent_incident_id": "salawu-2026-dekalb-ga-incident",
+      "content_hash": "sha256:e837fe2d3d62611e1e23ec5394e26e6a148d69bc2a0d72788a9d96d1dab65d3b",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "goss-2026-greene-county-ga",
+      "name": "Quin'sha Goss",
+      "agency": "Greene County Sheriff's Office",
+      "state": "GA",
+      "role": "Deputy",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Audit (June 30 2026) found access with no authorized law enforcement justification over three months.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "",
+      "status": "charged",
+      "last_updated": "2026-07-08",
+      "sources": [],
+      "parent_incident_id": "goss-2026-greene-county-ga-incident",
+      "content_hash": "sha256:1e64f665f7aa43b958c4ac77d69bcdc51e5e7ef425cbe0bfe55f3122151512f3",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "fayetteville-ga-3officers-2026",
+      "name": "Unnamed (3 officers)",
+      "agency": "Fayetteville Police Department",
+      "state": "GA",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "New internal auditing tool flagged searches of own plates and family/acquaintances; determined to lack legitimate law-enforcement purpose.",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_detail": "GBI reviewing as of late July 2026; no criminal charges announced yet.",
+      "status": "fired_no_charges_yet",
+      "last_updated": "2026-07-17",
+      "sources": [],
+      "parent_incident_id": "fayetteville-ga-3officers-2026-incident",
+      "content_hash": "sha256:9fd6b86241e00d75c5e6d60347052b1029fbc84af36e3001fffcad2de509fab6",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "forte-2026-conyers-ga",
+      "name": "Paige Forte",
+      "agency": "Conyers Police Department",
+      "state": "GA",
+      "role": "Real-Time Crime Center supervisor",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Accessed Flock 30+ times April-July 2026 to track domestic partner's vehicle.",
+      "outcomes": [
+        "arrested",
+        "administrative_leave"
+      ],
+      "outcome_detail": "Charged with misuse of a license plate reader system.",
+      "status": "charged",
+      "last_updated": "2026-07-23",
+      "sources": [],
+      "parent_incident_id": "forte-2026-conyers-ga-incident",
+      "content_hash": "sha256:25aeb4e8c32e584642dd715b67093b7def4e1e04d07a8d4b6dd361fa94850578",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "steffman-braselton-ga",
+      "name": "Michael Steffman",
+      "agency": "Braselton Police Department",
+      "state": "GA",
+      "role": "Police Chief",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly used readers to stalk multiple people including a former partner.",
+      "outcomes": [
+        "resigned",
+        "arrested"
+      ],
+      "outcome_detail": "Resigned shortly before arrest.",
+      "status": "charged",
+      "last_updated": "2025",
+      "sources": [],
+      "parent_incident_id": "steffman-braselton-ga-incident",
+      "content_hash": "sha256:11edd23e53e2fd5a25a78f9c142dc3375f84275d73996b23c0577e2c58e991d1",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "rozar-coffee-county-ga",
+      "name": "Chris Rozar",
+      "agency": "Coffee County (former deputy)",
+      "state": "GA",
+      "role": "Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly used Flock to stalk a woman.",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_detail": "Fired at start of investigation.",
+      "status": "charged",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "rozar-coffee-county-ga-incident",
+      "content_hash": "sha256:0a3107a7da9c0269e4914dda9731c3a58c2884949d670f38eb269c57d9930c82",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "downer-gwinnett-ga",
+      "name": "Renee Downer",
+      "agency": "Gwinnett County",
+      "state": "GA",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly used databases including Flock to monitor an ex-partner.",
+      "outcomes": [
+        "arrested",
+        "relieved_of_duty"
+      ],
+      "outcome_detail": "",
+      "status": "charged",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "downer-gwinnett-ga-incident",
+      "content_hash": "sha256:1a6d2af2cd83f26d2ff07b2d595865100df02e325e0c1dcc82933ef78ab37c2b",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "chapman-2026-milwaukee-wi",
+      "name": "Tehrangi Chapman",
+      "agency": "Milwaukee Police Department (Internal Affairs)",
+      "state": "WI",
+      "role": "Detective",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "The detective who investigated Ayala; admitted using Flock to track two people and secretly installing a GPS tracker on one vehicle.",
+      "outcomes": [
+        "suspended",
+        "charged"
+      ],
+      "outcome_detail": "Charged July 2026 with felony misconduct in public office and misdemeanor misuse of a GPS device; suspended since March 13 2026.",
+      "status": "charged",
+      "last_updated": "2026-07",
+      "sources": [],
+      "parent_incident_id": "chapman-2026-milwaukee-wi-incident",
+      "content_hash": "sha256:c6027143d5c24d63f02dd0942555d0747f5ddf2168ad40c97b19674efd40e261",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "almany-2026-sumter-fl",
+      "name": "Brandy Almany",
+      "agency": "Sumter County Sheriff's Office",
+      "state": "FL",
+      "role": "Detective",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used Flock, DAVID, and CCIS to track husband's ex-wife; allegedly falsified case numbers to disguise personal searches.",
+      "outcomes": [
+        "fired",
+        "arrested"
+      ],
+      "outcome_detail": "Charged with official misconduct and offenses against computer users; sheriff suspended all Flock use pending audit.",
+      "status": "charged",
+      "last_updated": "2026-07-23",
+      "sources": [],
+      "parent_incident_id": "almany-2026-sumter-fl-incident",
+      "content_hash": "sha256:f730e7aba7321159358c7bc3ca0d67bc39d4088ba59d85217e94b43301c2523e",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "elliott-2026-charlotte-nc",
+      "name": "Seth Elliott",
+      "agency": "Charlotte-Mecklenburg Police Department",
+      "state": "NC",
+      "role": "Officer",
+      "misuse_type": "corruption",
+      "allegation_summary": "Allegedly ran an undercover officer's plate through Flock and CJLEADS and passed it to a drug-investigation target.",
+      "outcomes": [
+        "arrested",
+        "unpaid_leave"
+      ],
+      "outcome_detail": "Charged with illegally accessing a government computer.",
+      "status": "charged",
+      "last_updated": "2026-07-30",
+      "sources": [
+        "https://www.wsoctv.com/news/local/sbi-cmpd-officer-used-flock-provide-undercover-officers-plate-drug-target/DLFDA7C645DUPJPYFBFLMZIOAQ/"
+      ],
+      "parent_incident_id": "elliott-2026-charlotte-nc-incident",
+      "content_hash": "sha256:67eb97b4bcb03aff3b717e77f11e948fff075e467696730289e639eba467562c",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "brown-2025-orange-city-fl",
+      "name": "Jarmarus Brown",
+      "agency": "Orange City Police Department",
+      "state": "FL",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Ran ex-girlfriend's plate at least 69 times over ~7 months, plus her parents' plates.",
+      "outcomes": [
+        "arrested",
+        "charged"
+      ],
+      "outcome_detail": "",
+      "status": "charged",
+      "last_updated": "2025",
+      "sources": [],
+      "parent_incident_id": "brown-2025-orange-city-fl-incident",
+      "content_hash": "sha256:42443416429641d2d50cc270af4900a4a76dbc9a2be999338a8b393dcb32f879",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cedeno-louisville-ky",
+      "name": "Roberto Cedeno",
+      "agency": "Louisville Metro Police Department",
+      "state": "KY",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly tracked an ex-partner and her friends hundreds of times.",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_detail": "Multiple felony charges.",
+      "status": "charged",
+      "last_updated": "2025",
+      "sources": [],
+      "parent_incident_id": "cedeno-louisville-ky-incident",
+      "content_hash": "sha256:cc5d56771882e92ef2c4d79d7c16fba478b73af0098d068a464a92bcc6c3799c",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "rector-2026-bonner-springs-ks",
+      "name": "Kyle Rector",
+      "agency": "Bonner Springs (unspecified agency)",
+      "state": "KS",
+      "role": "Detective",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly tracked estranged wife and two suspected new partners.",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_detail": "Charged March 2026.",
+      "status": "charged",
+      "last_updated": "2026-03",
+      "sources": [],
+      "parent_incident_id": "rector-2026-bonner-springs-ks-incident",
+      "content_hash": "sha256:8372c3f403cdfce5db16a5e2d28e01d5b5e7dbe6121c744a2561ac6373153dcd",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "cole-clark-2024-matteson-il",
+      "name": "Jaila Cole-Clark",
+      "agency": "Matteson Police Department",
+      "state": "IL",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly ran hundreds of searches on a former partner and their new partner.",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_detail": "Resigned mid-investigation.",
+      "status": "resigned_no_charges_known",
+      "last_updated": "2024",
+      "sources": [],
+      "parent_incident_id": "cole-clark-2024-matteson-il-incident",
+      "content_hash": "sha256:df3f4195b19777f3f9fd51919236036c7ea64ed1d215ff6e0499fb549fc967ae",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "gordon-2024-shelby-county-tn",
+      "name": "Thadius Gordon",
+      "agency": "Shelby County",
+      "state": "TN",
+      "role": "Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly used ALPR database to locate ex-wife 100+ times.",
+      "outcomes": [
+        "relieved_of_duty"
+      ],
+      "outcome_detail": "System type not confirmed as Flock-branded.",
+      "status": "under_investigation",
+      "last_updated": "2024",
+      "sources": [],
+      "parent_incident_id": "gordon-2024-shelby-county-tn-incident",
+      "content_hash": "sha256:d81c7b6b05b5d513d562cdc609a7a43735a7c6b773b7abf76fa9b1e03a5730ea",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "morales-2025-menasha-wi",
+      "name": "Cristian Morales",
+      "agency": "Menasha Police Department",
+      "state": "WI",
+      "role": "Officer",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Ex-girlfriend complained he tracked her via Flock.",
+      "outcomes": [
+        "placed_on_leave",
+        "charged"
+      ],
+      "outcome_detail": "Charged with misconduct in office.",
+      "status": "charged",
+      "last_updated": "2025",
+      "sources": [],
+      "parent_incident_id": "morales-2025-menasha-wi-incident",
+      "content_hash": "sha256:dc1ffa721d5eebca0723944ff2961721630527b6800c4a0a8d4d57fc4faf3bb8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "kenosha-deputy-2025-wi",
+      "name": "Unnamed",
+      "agency": "Kenosha County Sheriff's Office",
+      "state": "WI",
+      "role": "Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used Flock to monitor a coworker he was romantically involved with.",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_detail": "Resigned with severance after internal probe.",
+      "status": "resigned_no_charges_known",
+      "last_updated": "2025",
+      "sources": [],
+      "parent_incident_id": "kenosha-deputy-2025-wi-incident",
+      "content_hash": "sha256:396a985182237ce16cebf1494589d30bb6996244345b7387975b0793cc8b06e8",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "copp-2026-prairie-grove-il",
+      "name": "William Copp",
+      "agency": "Prairie Grove Police Department (also Holiday Hills Police Chief)",
+      "state": "IL",
+      "role": "Officer / Chief",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Searched Flock for former partners and at least one new partner.",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_detail": "",
+      "status": "charged",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "copp-2026-prairie-grove-il-incident",
+      "content_hash": "sha256:42b37988caffcd37905f8874b9b114a40be62d290177d8ac934e663306e778be",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "bryan-2026-winnebago-il",
+      "name": "Tyler Bryan",
+      "agency": "Winnebago County",
+      "state": "IL",
+      "role": "Former Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly monitored an ex and her new partner.",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_detail": "Charged with stalking and official misconduct; ALPR vendor not confirmed as Flock.",
+      "status": "charged",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "bryan-2026-winnebago-il-incident",
+      "content_hash": "sha256:4b5678c0a14621c11fbbd0da38e552f71cc27f2e35cd9ca28c69740de41eca59",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "roman-2026-monroe-county-fl",
+      "name": "Lamar Roman",
+      "agency": "Monroe County Sheriff's Office",
+      "state": "FL",
+      "role": "Deputy",
+      "misuse_type": "other",
+      "allegation_summary": "Allegedly used an ALPR to track and eventually pull over a woman he met while providing security on a TV set.",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_detail": "",
+      "status": "charged",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "roman-2026-monroe-county-fl-incident",
+      "content_hash": "sha256:f46ddfacd27ae4b3004bbd04bf3330a7764d4faf5f322932d7c322dc8a732828",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "palitz-2026-pasadena-tx",
+      "name": "Michael Palitz",
+      "agency": "Pasadena Police Department",
+      "state": "TX",
+      "role": "Sergeant",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Allegedly used Flock to track/stalk a female officer.",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_detail": "Resigned while under investigation.",
+      "status": "resigned_under_investigation",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "palitz-2026-pasadena-tx-incident",
+      "content_hash": "sha256:f69d9275a751956eaabd64f81767561ccf57143f3dcf93400e12357d74a89b24",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "lynch-echeverry-2026-greer-sc-kareem-lynch",
+      "name": "Kareem Lynch",
+      "agency": "Greer Police Department",
+      "state": "SC",
+      "role": "Corporal / Officer",
+      "misuse_type": "mixed",
+      "allegation_summary": "Internal audit found personal-use searches: Lynch monitoring a subordinate; Echeverry targeting an ex-girlfriend.",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_detail": "Reported to SC Criminal Justice Academy.",
+      "status": "fired_no_charges_known",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "lynch-echeverry-2026-greer-sc-incident",
+      "content_hash": "sha256:788938d8c7c5b92bf4b6d4c54d4ae5f55808b6a1531fc803e15a4ad3f611ba09",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "lynch-echeverry-2026-greer-sc-sebastian-echeverry",
+      "name": "Sebastian Echeverry",
+      "agency": "Greer Police Department",
+      "state": "SC",
+      "role": "Corporal / Officer",
+      "misuse_type": "mixed",
+      "allegation_summary": "Internal audit found personal-use searches: Lynch monitoring a subordinate; Echeverry targeting an ex-girlfriend.",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_detail": "Reported to SC Criminal Justice Academy.",
+      "status": "fired_no_charges_known",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "lynch-echeverry-2026-greer-sc-incident",
+      "content_hash": "sha256:788938d8c7c5b92bf4b6d4c54d4ae5f55808b6a1531fc803e15a4ad3f611ba09",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "alabama-2officers-2026",
+      "name": "Unnamed (Moody and Springville)",
+      "agency": "Moody PD / Springville PD",
+      "state": "AL",
+      "role": "Officers",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Springville chief stated officer used the system 'for personal use on a family member.'",
+      "outcomes": [
+        "fired",
+        "resigned"
+      ],
+      "outcome_detail": "One terminated, one resigned across two separate investigations.",
+      "status": "resolved_internally",
+      "last_updated": "2026",
+      "sources": [],
+      "parent_incident_id": "alabama-2officers-2026-incident",
+      "content_hash": "sha256:2f22e52fb6fa2bda44f5b14f802c75b66d1bb65deaf55c7de4273f1d7b389bac",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "nygaard-2023-sedgwick-ks",
+      "name": "Lee Nygaard",
+      "agency": "Sedgwick Police Department",
+      "state": "KS",
+      "role": "Police Chief",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Ran ex-girlfriend's and her new boyfriend's plates 200+ times.",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_detail": "",
+      "status": "resigned_no_charges_known",
+      "last_updated": "2023",
+      "sources": [],
+      "parent_incident_id": "nygaard-2023-sedgwick-ks-incident",
+      "content_hash": "sha256:b5f43642bf57a1b3134309fef6f355b12e2e28eacbb556c50f08b9690761c9f0",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "oppedyk-2025-jerome-county-id",
+      "name": "George Oppedyk",
+      "agency": "Jerome County Sheriff's Office",
+      "state": "ID",
+      "role": "Sheriff",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Searched for wife's vehicle hundreds of times; Idaho AG found no crime.",
+      "outcomes": [
+        "retired_early"
+      ],
+      "outcome_detail": "Retired early April 2026 after investigation cleared him criminally.",
+      "status": "no_crime_found",
+      "last_updated": "2026-04",
+      "sources": [],
+      "parent_incident_id": "oppedyk-2025-jerome-county-id-incident",
+      "content_hash": "sha256:e54535c10f65fd5722e373c2c0515460e8333add4ad35572d38aa37b489a4c3f",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "fort-bend-lieutenant-2022-tx",
+      "name": "Unnamed",
+      "agency": "Fort Bend County Sheriff's Office",
+      "state": "TX",
+      "role": "Lieutenant",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Used Flock to monitor multiple people dozens of times.",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_detail": "Two-day suspension only.",
+      "status": "resolved_internally_minor",
+      "last_updated": "2022",
+      "sources": [],
+      "parent_incident_id": "fort-bend-lieutenant-2022-tx-incident",
+      "content_hash": "sha256:a857c14253a28b22c3ad1ddef8320c32604eee9b8461e0be626b6d50ceb1e53e",
+      "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    }
+  ]
+}

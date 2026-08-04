@@ -1,0 +1,39 @@
+name: Weekly Flock Misuse Tracker Update
+
+on:
+  schedule:
+    # Every Monday at 13:00 UTC (~9am US Eastern). Adjust as you like.
+    - cron: "0 13 * * 1"
+  workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run tracker update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/update_tracker.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "flock-tracker-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Weekly Flock misuse tracker update: $(date -u +%Y-%m-%d)"
+            git push
+          fi
