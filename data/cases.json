@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-03",
+  "last_updated": "2026-08-04",
   "notes": "Seeded from an initial research pass (sources current to 2026-07-30). This file is the running dataset; the weekly workflow appends/updates entries and should avoid duplicating existing 'id' values. Aggregate 'as of' figures (e.g. IJ's tally, Georgia's count) should be treated as external trackers to check against, not summed with this list. Reconciled 2026-08-03 against a TechSpot summary of a WaPo investigation citing 'at least 50 officers nationally, 46 tied to Flock specifically': counting individual officers across cases[] (including bundled multi-officer entries) yields 48 total, 46 excluding the 2 entries already flagged as unconfirmed-Flock-vendor (Gordon-TN, Bryan-IL) - closely matching WaPo's figures, so no major gaps found. The one new lead from that piece (an unnamed GA police chief case) couldn't be turned into a case for lack of identifying detail; flagged instead as a note on the Steffman incident pending manual review.",
   "aggregate_trackers": [
     {
@@ -628,16 +628,16 @@
         "Moody PD / Springville PD"
       ],
       "reported_count": 1,
-      "identified_count": 0,
+      "identified_count": 1,
       "date_range": {
         "start": "2026",
         "end": "2026"
       },
-      "status": "unidentified",
+      "status": "fully_identified",
       "source_urls": [],
       "notes": "",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
-      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "verified": false
     },
     {
@@ -696,6 +696,29 @@
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
       "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
       "verified": false
+    },
+    {
+      "id": "savannah-ga-6employees-2026-incident",
+      "state": "GA",
+      "agencies": [
+        "Savannah Police Department"
+      ],
+      "reported_count": 6,
+      "identified_count": 0,
+      "date_range": {
+        "start": "2026-07-27",
+        "end": "2026-07-27"
+      },
+      "status": "unidentified",
+      "source_urls": [
+        "https://www.wrdw.com/2026/08/02/6-more-ga-police-department-employees-under-investigation-over-alleged-flock-camera-misuse/",
+        "https://www.cbsnews.com/atlanta/news/savannah-police-employees-leave-investigation-flock-cameras/",
+        "https://www.wtoc.com/2026/08/03/savannah-mayor-police-chief-respond-alleged-misuse-flock-license-plate-reader/",
+        "https://www.wsbtv.com/news/local/6-georgia-officers-under-investigation-misusing-flock-system-popular-tourist-destination/IVSL3XMLBRGRRLSN75MXHH6HI4/"
+      ],
+      "verified": false,
+      "first_seen_at": "2026-08-04T02:46:12.074159+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00"
     }
   ],
   "cases": [
@@ -801,14 +824,16 @@
         "resigned",
         "convicted"
       ],
-      "outcome_detail": "Resigned March 2026; pleaded guilty June 11 2026 to attempted misconduct in public office; sentenced July 15 2026 to 1 year probation + $500 fine.",
+      "outcome_detail": "Sentenced (reported as of ~July 29, 2026) to one year of probation; judge rejected a plea-deal recommendation of a fine only, citing harm to victims and the community.",
       "status": "convicted",
-      "last_updated": "2026-07-15",
-      "sources": [],
+      "last_updated": "2026-08-04",
+      "sources": [
+        "https://www.cnn.com/2026/07/26/us/flock-cameras-surveillance-abuse"
+      ],
       "parent_incident_id": "ayala-2026-milwaukee-wi-incident",
-      "content_hash": "sha256:71e82688be3fd8df22f14e6552e28d92a918ff0b4774b84536f7192ad400eb43",
+      "content_hash": "sha256:9245852ee0265ad5b45c55230fbd182e5f6a83fd331c0ac3cc1d8c3c958fb7e1",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
-      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "verified": false
     },
     {
@@ -1272,14 +1297,17 @@
         "suspended",
         "charged"
       ],
-      "outcome_detail": "Charged July 2026 with felony misconduct in public office and misdemeanor misuse of a GPS device; suspended since March 13 2026.",
+      "outcome_detail": "Made initial court appearance July 17, 2026 on felony misconduct in public office and misdemeanor misuse-of-GPS-device charges; did not enter a plea, given $1,000 signature bond; plea negotiations reportedly underway. Accused of using Flock ~20 times and placing a GPS tracker on a victim's vehicle.",
       "status": "charged",
-      "last_updated": "2026-07",
-      "sources": [],
+      "last_updated": "2026-08-04",
+      "sources": [
+        "https://www.cnn.com/2026/07/26/us/flock-cameras-surveillance-abuse",
+        "https://www.tmj4.com/news/local-news/in-your-community/milwaukee-county/suspended-milwaukee-detective-accused-of-misusing-license-plate-camera-database-makes-first-court-appearance"
+      ],
       "parent_incident_id": "chapman-2026-milwaukee-wi-incident",
-      "content_hash": "sha256:c6027143d5c24d63f02dd0942555d0747f5ddf2168ad40c97b19674efd40e261",
+      "content_hash": "sha256:8350f9425930e226fcd41ae6fc555eb6b4a4b358652bc050c2ba9834fe1cd697",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
-      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "verified": false
     },
     {
@@ -1316,16 +1344,17 @@
         "arrested",
         "unpaid_leave"
       ],
-      "outcome_detail": "Charged with illegally accessing a government computer.",
+      "outcome_detail": "New court documents allege Elliott looked up an undercover officer's plate in Flock and CJLEADS at the request of a suspected drug dealer, then relayed the undercover officer's identity back to the dealer, in a Watauga County drug investigation. CMPD confirmed Elliott is now on unpaid (previously paid) administrative leave.",
       "status": "charged",
-      "last_updated": "2026-07-30",
+      "last_updated": "2026-08-04",
       "sources": [
-        "https://www.wsoctv.com/news/local/sbi-cmpd-officer-used-flock-provide-undercover-officers-plate-drug-target/DLFDA7C645DUPJPYFBFLMZIOAQ/"
+        "https://www.newsweek.com/flock-camera-police-arrests-12263782",
+        "https://www.wbtw.com/news/state-regional-news/questions-raised-over-flock-camera-oversight-after-cmpd-officer-charged/"
       ],
       "parent_incident_id": "elliott-2026-charlotte-nc-incident",
-      "content_hash": "sha256:67eb97b4bcb03aff3b717e77f11e948fff075e467696730289e639eba467562c",
+      "content_hash": "sha256:ff5d1a383b9dfe381971e9d9d734bc2b54a2a0bd1230bcf79e0c479a157d3871",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
-      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "verified": false
     },
     {
@@ -1686,6 +1715,30 @@
       "content_hash": "sha256:a857c14253a28b22c3ad1ddef8320c32604eee9b8461e0be626b6d50ceb1e53e",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
       "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "verified": false
+    },
+    {
+      "id": "crump-2026-moody-al",
+      "parent_incident_id": "alabama-2officers-2026-incident",
+      "name": "Justin Crump",
+      "agency": "Moody Police Department",
+      "state": "AL",
+      "role": "Sergeant",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Sgt. Justin Crump allegedly used Flock cameras to track a woman he had a romantic interest in.",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_detail": "Terminated July 16, 2026 following an internal investigation opened July 10; case referred to Alabama Law Enforcement Agency (ALEA). Note: official department statements (ABC 3340) declined to name him, so this identification (from Alabama Gazette) is a best-guess link with moderate confidence.",
+      "status": "fired_no_charges_yet",
+      "last_updated": "2026-08-04",
+      "sources": [
+        "https://www.alabamagazette.com/story/2026/07/28/news/alabama-power-company-marketed-flock-camera-systems-to-municipalities/11955.html",
+        "https://abc3340.com/news/local/moody-officer-terminated-springville-officer-resigns-after-flock-investigations-alea"
+      ],
+      "content_hash": "sha256:abc87f787d7186d75546a3642f50af985e2759ab4feecaedd3a8d5ca38561308",
+      "first_seen_at": "2026-08-04T02:46:12.074159+00:00",
+      "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "verified": false
     }
   ]
