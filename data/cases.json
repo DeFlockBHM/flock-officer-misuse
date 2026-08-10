@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "last_updated": "2026-08-04",
+  "last_updated": "2026-08-10",
   "notes": "Seeded from an initial research pass (sources current to 2026-07-30). This file is the running dataset; the weekly workflow appends/updates entries and should avoid duplicating existing 'id' values. Aggregate 'as of' figures (e.g. IJ's tally, Georgia's count) should be treated as external trackers to check against, not summed with this list. Reconciled 2026-08-03 against a TechSpot summary of a WaPo investigation citing 'at least 50 officers nationally, 46 tied to Flock specifically': counting individual officers across cases[] (including bundled multi-officer entries) yields 48 total, 46 excluding the 2 entries already flagged as unconfirmed-Flock-vendor (Gordon-TN, Bryan-IL) - closely matching WaPo's figures, so no major gaps found. The one new lead from that piece (an unnamed GA police chief case) couldn't be turned into a case for lack of identifying detail; flagged instead as a note on the Steffman incident pending manual review.",
   "aggregate_trackers": [
     {
@@ -514,16 +514,18 @@
         "Kenosha County Sheriff's Office"
       ],
       "reported_count": 1,
-      "identified_count": 0,
+      "identified_count": 2,
       "date_range": {
         "start": "2025",
         "end": "2025"
       },
-      "status": "unidentified",
-      "source_urls": [],
+      "status": "fully_identified",
+      "source_urls": [
+        "https://kenoshacountyeye.com/2026/08/06/fellow-conservatives-its-time-to-turn-the-page-on-sheriff-david-zoerner-opinion/"
+      ],
       "notes": "",
       "first_seen_at": "2026-08-04T01:41:49.156914+00:00",
-      "last_seen_at": "2026-08-04T01:41:49.156914+00:00",
+      "last_seen_at": "2026-08-10T16:13:12.939028+00:00",
       "verified": false
     },
     {
@@ -719,6 +721,28 @@
       "verified": false,
       "first_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "last_seen_at": "2026-08-04T02:46:12.074159+00:00"
+    },
+    {
+      "id": "snowman-2026-mooresville-nc-incident",
+      "state": "NC",
+      "agencies": [
+        "Mooresville Police Department"
+      ],
+      "reported_count": 11,
+      "identified_count": 2,
+      "date_range": {
+        "start": "2026-08-05",
+        "end": "2026-08-05"
+      },
+      "status": "partially_identified",
+      "source_urls": [
+        "https://www.wbtv.com/2026/08/05/mooresville-police-officer-accused-using-flock-cameras-track-boyfriends-ex-wife/",
+        "https://www.wbtv.com/2026/08/07/mooresville-police-investigating-10-cases-suspected-flock-camera-misuse-by-officers/",
+        "https://www.union-bulletin.com/news/national/at-least-10-cops-in-mooresville-nc-under-investigation-over-flock-violations-chief-says/article_ba04769a-91b1-5ce3-9b4a-499a8f61fb60.html"
+      ],
+      "verified": false,
+      "first_seen_at": "2026-08-10T16:13:12.939028+00:00",
+      "last_seen_at": "2026-08-10T16:13:12.939028+00:00"
     }
   ],
   "cases": [
@@ -1739,6 +1763,55 @@
       "content_hash": "sha256:abc87f787d7186d75546a3642f50af985e2759ab4feecaedd3a8d5ca38561308",
       "first_seen_at": "2026-08-04T02:46:12.074159+00:00",
       "last_seen_at": "2026-08-04T02:46:12.074159+00:00",
+      "verified": false
+    },
+    {
+      "id": "snowman-2026-mooresville-nc",
+      "parent_incident_id": "snowman-2026-mooresville-nc-incident",
+      "name": "Elizabeth Anne Snowman",
+      "agency": "Mooresville Police Department",
+      "state": "NC",
+      "role": "Officer",
+      "misuse_type": "personal_use",
+      "allegation_summary": "Accessed the department's Flock license plate reader system 31 times, including while off-duty, to track her boyfriend's ex-wife.",
+      "outcomes": [
+        "arrested",
+        "charged"
+      ],
+      "outcome_detail": "Arrested Aug. 5, 2026 while on duty; charged with accessing computers; released on $5,000 secured bond; still employed pending HR decision. Chief says 10 additional officers under review, 3 deemed potentially problematic.",
+      "status": "charged",
+      "last_updated": "2026-08-10",
+      "sources": [
+        "https://www.wbtv.com/2026/08/05/mooresville-police-officer-accused-using-flock-cameras-track-boyfriends-ex-wife/",
+        "https://abcnews.com/US/officer-allegedly-flock-license-plate-cameras-track-boyfriends/story?id=135418955"
+      ],
+      "content_hash": "sha256:26bbfb80a8bd68335ea4b87f36fde88653ceaeec9390afe28b36fc3722d8c136",
+      "first_seen_at": "2026-08-10T16:13:12.939028+00:00",
+      "last_seen_at": "2026-08-10T16:13:12.939028+00:00",
+      "verified": false
+    },
+    {
+      "id": "mcgrath-2025-kenosha-wi",
+      "parent_incident_id": "kenosha-deputy-2025-wi-incident",
+      "name": "Frank McGrath",
+      "agency": "Kenosha County Sheriff's Office",
+      "state": "WI",
+      "role": "Deputy",
+      "misuse_type": "romantic_stalking",
+      "allegation_summary": "Used Flock and the squad-car tracking system Polaris to monitor a fellow deputy he had been dating, entering vague/false reasons for the searches.",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_detail": "Resigned in Dec. 2025 under a severance agreement after internal investigation sustained findings of unauthorized Flock/Polaris use and dishonesty. A citizen John Doe petition sought criminal charges; as of the most recent (Aug. 6, 2026) local reporting, the DA has still not filed charges pending review of an outside agency investigation. Note: this individual's name was linking uncertainty is low (matches agency/tech/timeframe of existing unidentified incident) but the identification source is an opinion column, not a fresh news report, so treat with some caution.",
+      "status": "resigned_no_charges_known",
+      "last_updated": "2026-08-10",
+      "sources": [
+        "https://kenoshacountyeye.com/2026/08/06/fellow-conservatives-its-time-to-turn-the-page-on-sheriff-david-zoerner-opinion/",
+        "https://kenoshacountyeye.com/2026/06/18/da-solis-declines-to-file-charges-against-fired-kenosha-county-sheriffs-deputy-accused-of-misusing-law-enforcement-records-to-stalk-co-worker/"
+      ],
+      "content_hash": "sha256:5269d17c718bf5869b0b63896ed9335077ef0bfdd5707ecafeeced486fef3058",
+      "first_seen_at": "2026-08-10T16:13:12.939028+00:00",
+      "last_seen_at": "2026-08-10T16:13:12.939028+00:00",
       "verified": false
     }
   ]
