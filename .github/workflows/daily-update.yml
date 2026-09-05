@@ -1,9 +1,9 @@
-name: Weekly Flock Misuse Tracker Update
+name: Daily Flock Misuse Tracker Update
 
 on:
   schedule:
-    # Every Monday at 13:00 UTC (~9am US Eastern). Adjust as you like.
-    - cron: "0 13 * * 1"
+    # Every day at 13:00 UTC (~9am US Eastern). Adjust as you like.
+    - cron: "0 13 * * *"
   workflow_dispatch: {}  # allows manual "Run workflow" trigger from the Actions tab
 
 permissions:
@@ -22,15 +22,19 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
-          python-version: "3.12"
+          node-version: "20"
 
-      - name: Run tracker update
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python scripts/update_tracker.py
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run IJ scraper
+        run: npm run scrape
 
       - name: Commit and push changes
         run: |
@@ -41,7 +45,7 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "Weekly Flock misuse tracker update: $(date -u +%Y-%m-%d)"
+          git commit -m "Daily Flock misuse tracker update: $(date -u +%Y-%m-%d)"
 
           # Retry with rebase in case main moved since checkout (e.g. a
           # manual run landed while this one was still generating its diff).

@@ -1,97 +1,127 @@
-# Data schema (v2)
+# Data schema (v3)
 
 `data/cases.json` has this top-level shape:
 
 ```json
 {
-  "schema_version": 2,
-  "last_updated": "2026-08-03",
-  "notes": "...",
-  "aggregate_trackers": [ ... ],
-  "incidents": [ ... ],
-  "cases": [ ... ]
+  "schema_version": 3,
+  "generated_at": "2026-09-05T00:00:00Z",
+  "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
+  "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
+  "count": 0,
+  "incidents": [ ... ]
 }
 ```
 
-## Why incidents and cases are separate
+## Why this replaced the v1/v2 incidents+cases split
 
-Multi-officer sweeps (Georgia's audit-driven arrests are the clearest example)
-are often reported as a **count before names**: "22 officers arrested" comes
-out well before the individuals are publicly identified, and names then trickle
-in over the following days/weeks. If every named article were treated as an
-independent signal, the tracker would eventually either double-count someone
-who was already part of the reported total, or fail to recognize a genuinely
-new, unrelated case in the same state.
+The previous schema split reported sweeps (`incidents[]`, a count before names)
+from named individuals (`cases[]`), to handle stories like "22 officers
+arrested" landing before anyone was identified. That problem is specific to
+tracking breaking news via LLM web search. The Institute for Justice's ALPR
+abuse database (the [Plate Privacy Project](https://ij.org/the-ij-database-of-alpr-abuse/))
+already does the identification work and publishes one entry per incident,
+each with a stable ID, so the sweep/individual distinction is no longer
+something this tracker needs to model itself. Every prior entry was cleared
+out rather than migrated, since IJ's database and the old LLM-search dataset
+overlapped heavily and disagreed in places on details neither could source
+as well as IJ's own page.
 
-To handle this, every `case` (a named or "Unnamed (role)" individual) is linked
-to a parent `incident` (the reported enforcement event) via
-`parent_incident_id`. This applies uniformly — even a solo, single-officer case
-gets an auto-generated 1:1 incident wrapper — so the schema never branches on
-"is this a sweep or not," and a solo case that later turns out to be part of a
-larger sweep doesn't require restructuring.
+## Where the data comes from
+
+A plain HTTP scraper (`scripts/scrape_ij.js`, Node + Playwright) loads
+`https://ij.org/the-ij-database-of-alpr-abuse/` daily, waits out the page's
+Cloudflare challenge, and parses the rendered incident list directly from
+`data-*` attributes IJ already puts on each `<article>` element (id, city,
+state, category, manufacturer, date, description, source link) - there is no
+free-text extraction or LLM involved.
+
+IJ's database covers every ALPR vendor it has documented abuse for (Flock,
+Rekor, Vigilant, Guardian, NDI, and some entries where the vendor isn't
+specified), not just Flock. This tracker keeps the full set rather than
+filtering it down - see `manufacturer` / `is_flock` below - since the
+misuse/outcome patterns are useful across vendors and dropping non-Flock
+rows would throw away real data for no benefit. Filter to `is_flock: true`
+downstream if you only want the Flock subset.
+
+IJ's page does not publish a personnel-outcome field, so `outcomes[]` (see
+below) is derived from the incident description via deterministic keyword
+matching - not an LLM judgment call. It will sometimes under- or over-tag;
+treat it as a best-effort index into the description text, not a verified
+fact independent of it.
 
 ## `incidents[]`
 
 | Field | Type | Description |
 |---|---|---|
-| `id` | string | Stable slug, e.g. `ga-albany-sweep-2026-07` |
-| `state` | string | Two-letter state code |
-| `agencies` | array of strings | One or more agencies involved |
-| `reported_count` | int | How many officers reporting says are involved |
-| `identified_count` | int | How many are named/linked so far |
-| `date_range` | `{start, end}` | ISO dates bounding the reported event |
-| `status` | string | `unidentified` \| `partially_identified` \| `fully_identified` |
-| `source_urls` | array of strings | Source article URLs |
-| `notes` | string | Free text, e.g. auto-generation notes |
-| `first_seen_at` / `last_seen_at` | ISO datetime | Append-only provenance — `first_seen_at` is never overwritten |
-| `verified` | bool | Defaults to `false`. Every auto-written or auto-linked incident starts unverified; a human should review and flip this. |
+| `id` | string | Stable slug: `<state>-<city>-<ij_source_id>` |
+| `ij_source_id` | string | IJ's own internal incident ID (`data-alpr-incident`) - the real identity key; the slug is derived from it for readability but `ij_source_id` is what diffing keys off |
+| `title` | string | IJ's own title, e.g. `"Clayton County, GA - September 2026"` |
+| `location` | `{city, state, state_name}` | `state` is lowercase full state name as IJ encodes it (their site has no 2-letter codes); kept as-is rather than invented |
+| `date` | `{text, iso}` | `text` is IJ's own display date (usually month/year); `iso` is `data-date`, which IJ documents as "when the misuse began, if known, or when it was first publicly reported" |
+| `classification` | string | Normalized enum, see **Classification types** below |
+| `classification_raw` | string | IJ's own category label, e.g. `"Non Law-Enforcement Use"` |
+| `manufacturer` | string | IJ's normalized vendor slug: `flock`, `rekor`, `vigilant`, `guardian`, `ndi`, or `unspecified` |
+| `manufacturer_name` | string | IJ's display name for the vendor, e.g. `"Flock"`, `"Unspecified"` |
+| `is_flock` | bool | `true` iff `manufacturer === "flock"` - convenience field so consumers can filter to the Flock subset without checking the raw slug |
+| `description` | string | IJ's own one-sentence summary - already short, not full article text, so no separate excerpt/copyright handling is needed here (contrast `deflocked-municipalities`, which fetches and excerpts full articles itself) |
+| `source_url` | string | The "Original source" link IJ attaches to the entry (a news article, court filing, or public-records release) |
+| `outcomes` | array of strings | Zero or more entries from the **Outcome types** enum below, keyword-matched against `description` |
+| `outcome_matches` | array of strings | The literal substrings that triggered each outcome tag, for auditability - lets a human check the keyword match wasn't spurious without re-reading IJ's site |
+| `content_hash` | string | `sha256:` of `classification_raw + description + source_url + date.iso`, recomputed every run - detects real changes vs. a no-op rescrape |
+| `first_seen_at` / `last_seen_at` | ISO datetime | Append-only provenance; `first_seen_at` never overwritten |
+| `status` | string | `active` (currently present in IJ's database) or `removed_from_source` (was present in a prior run, no longer found - flagged, never silently dropped) |
+| `verified` | bool | Always `false` from the scraper; reserved for optional manual QA, same convention as prior schema versions |
 
-If `identified_count` exceeds `reported_count`, that's a signal something's
-wrong (over-linking, or `reported_count` itself needs correcting) — the weekly
-script flags this explicitly in its log rather than silently letting the
-numbers diverge.
+## Classification types
 
-## `cases[]`
+Taken directly from IJ's own four categories (`data-type` on each entry):
 
-| Field | Type | Description |
+| `classification` | IJ's label | Meaning |
 |---|---|---|
-| `id` | string | Stable slug, e.g. `lastname-year-city-st` |
-| `parent_incident_id` | string | **Required.** Always points to a real `incidents[].id` |
-| `name` | string | Full name, or `"Unnamed (role)"` if not yet public |
-| `agency` | string | Department/agency |
-| `state` | string | Two-letter state code |
-| `role` | string | Job title |
-| `misuse_type` | string | `romantic_stalking` \| `personal_use` \| `corruption` \| `other` \| `mixed` |
-| `allegation_summary` | string | 1–2 sentence factual summary |
-| `outcomes` | array of strings | e.g. `["fired", "arrested"]` |
-| `outcome_detail` | string | Specific dates/charges/sentences; also where the script notes any uncertainty about an incident link |
-| `status` | string | e.g. `charged`, `convicted`, `under_investigation` |
-| `last_updated` | ISO date | Most recent known development |
-| `sources` | array of strings | Source URLs |
-| `content_hash` | string | `sha256:` hash of `allegation_summary + outcome_detail + status`, recomputed on every update — lets you detect at a glance whether a case's substantive facts changed between runs, without needing to diff full text or archive the source |
-| `first_seen_at` / `last_seen_at` | ISO datetime | Same append-only convention as incidents |
-| `verified` | bool | Defaults to `false`; flipped to `true` on manual review |
+| `stalking` | Stalking | ALPR data used to track a romantic partner, ex-partner, or other personal target |
+| `non_law_enforcement_use` | Non Law-Enforcement Use | Access or searches outside any legitimate law-enforcement purpose (personal curiosity, favors, unauthorized sharing, etc.) that isn't stalking specifically |
+| `other_misuse` | Other Misuse | Misuse that doesn't fit the above (e.g. searches without a case number, policy violations) |
+| `error` | Error | System/process failure rather than deliberate misuse (false-positive stop, wrong vehicle, technical malfunction) |
 
-## `aggregate_trackers[]`
+## Outcome types
 
-External running counts (e.g. Institute for Justice's stalking tally,
-Georgia's cumulative arrest count) that should be **checked against, not
-summed with**, the individual incident/case data — they overlap only
-partially with each other and with this dataset.
+Keyword-matched against `description`, case-insensitive. An entry can carry
+multiple outcomes (e.g. `["arrested", "charged"]`) or none if nothing in the
+description matches (common for `error`-type entries with no personnel
+consequence, e.g. a wrongful stop with no disciplinary follow-up reported).
+
+| `outcome` | Trigger keywords (examples) |
+|---|---|
+| `fired` | fired, terminated |
+| `resigned` | resigned |
+| `retired` | retired |
+| `arrested` | arrested |
+| `charged` | charged, indicted |
+| `pleaded_guilty` | pled guilty, pleaded guilty |
+| `convicted` | convicted |
+| `sentenced` | sentenced, sentence |
+| `suspended` | suspended |
+| `administrative_leave` | administrative leave, placed on leave, put on leave |
+| `demoted` | demoted |
+| `disciplined` | disciplinary action, corrective action, reprimand |
+| `access_revoked` | access revoked, revoked access, access was suspended |
+| `under_investigation` | under investigation, investigation is ongoing, being investigated |
+| `no_action_reported` | Added when none of the above match and the description doesn't otherwise imply an open/ongoing status - i.e. the entry describes what happened but reports no consequence |
+
+`outcome_matches[]` records which literal phrase fired for each tag, so a
+reviewer can spot-check a tag against the actual sentence without needing to
+click through to `source_url`.
 
 ## Deliberate omissions
 
-This schema does **not** snapshot source articles via the Wayback Machine
-(unlike the [deflocked-municipalities](https://github.com/DeFlockBHM/deflocked-municipalities)
-project this was modeled on). Source URLs are stored as-is; if link rot
-becomes a problem later, that's a reasonable addition to revisit.
-
-## Review workflow
-
-Nothing the weekly script writes is `verified: true`. The intended workflow
-is: the script auto-links and auto-creates with its best judgment (including
-guessing at incident links when it's not fully confident — noting that
-uncertainty in `outcome_detail`), and a human periodically reviews
-`data/weekly-log/` entries and anything with `verified: false` — especially
-anything the script explicitly flagged (identified_count exceeding
-reported_count) — and corrects/confirms in `data/cases.json` directly.
+- No Wayback Machine archiving (same decision as v1/v2 - see prior schema
+  notes; IJ's own site is the canonical source and IJ itself credits and
+  links the original article, so link rot risk is lower here than for
+  `deflocked-municipalities`).
+- No `aggregate_trackers[]` array. That field existed to reconcile this
+  dataset against IJ's own running tallies; now that IJ's database *is* the
+  source, there's nothing external left to reconcile against.
+- No LLM/Claude API calls anywhere in the scraper. Classification and
+  outcome tagging are both deterministic (IJ's own category attribute, and
+  keyword matching, respectively).

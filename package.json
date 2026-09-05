@@ -1,0 +1,14 @@
+{
+  "name": "flock-officer-misuse",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Daily scraper for the Institute for Justice's ALPR abuse database, filtered to Flock incidents.",
+  "scripts": {
+    "scrape": "node scripts/scrape_ij.js"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
