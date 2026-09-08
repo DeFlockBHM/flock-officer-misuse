@@ -1,10 +1,174 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-07T18:00:09.189Z",
+  "generated_at": "2026-09-08T16:54:17.026Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 203,
+  "count": 219,
   "incidents": [
+    {
+      "id": "massachusetts-swampscott-261339",
+      "ij_source_id": "261339",
+      "title": "Swampscott, MA - September 2026",
+      "location": {
+        "city": "Swampscott",
+        "state": "massachusetts",
+        "state_name": "Massachusetts"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-05"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Swampscott officer was placed on leave while authorities investigated the officer’s alleged misuse of the Flock system in the nearby town of Lynn.",
+      "source_url": "https://swampscotttides.org/featured/swampscott-officer-on-paid-leave-as-department-investigates-flock-system-use/",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:d8f4d5e6725a75b80f3c79d2694a2c897bf08bd4939588b2a106a921d579a82c",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-gwinnett-261340",
+      "ij_source_id": "261340",
+      "title": "Gwinnett County, GA - September 2026",
+      "location": {
+        "city": "Gwinnett",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-04"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Derric Holmes was fired and charged with six counts of misuse of license plate data for unspecified misconduct.",
+      "source_url": "https://www.atlantanewsfirst.com/2026/09/05/3-gwinnett-police-officers-fired-charged-alleged-flock-camera-misuse/",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:aca273f66a38c7666802d33d74175fdd1695f91bf3d57120fb7b116a55de11e2",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-gwinnett-261341",
+      "ij_source_id": "261341",
+      "title": "Gwinnett County, GA - September 2026",
+      "location": {
+        "city": "Gwinnett",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-04"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Matthew Lay was fired and charged with one count of misuse of license plate reader data for unspecified misconduct.",
+      "source_url": "https://www.atlantanewsfirst.com/2026/09/05/3-gwinnett-police-officers-fired-charged-alleged-flock-camera-misuse/",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:34d13dd92d7d0872940bd4da99038dd0498c00f74b50741e31a9ce10b4d94ce1",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-michigan-city-261345",
+      "ij_source_id": "261345",
+      "title": "Michigan City, Indiana - September 2026",
+      "location": {
+        "city": "Michigan City",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-04"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Michigan City officer resigned in the midst of an investigation into unauthorized Flock searches.",
+      "source_url": "https://www.ipm.org/news/2026-09-07/michigan-city-police-officer-resigns-amid-investigation-into-flock-camera-searches",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:cfa3460b5acc25cc988110bfdfdb2fcc29a6e1fa69887730e4acd3a987cc1287",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-joliet-261347",
+      "ij_source_id": "261347",
+      "title": "Joliet, IL - September 2026",
+      "location": {
+        "city": "Joliet",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-04"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed officer was put on paid administrative leave following an investigation into improper use of the Flock system.",
+      "source_url": "https://patch.com/illinois/joliet/2-more-joliet-police-department-controversies-land-these-2-employees-paid-leave",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "administrative leave"
+      ],
+      "content_hash": "sha256:128ed211f112bd2c2f86666ce76ef3af0f0961908f0ccd2d75cfcf3ff2016691",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "georgia-clayton-county-261242",
       "ij_source_id": "261242",
@@ -98,6 +262,38 @@
       "content_hash": "sha256:9b4426e3f8304b64951f83c829c33ba8ca19f7b798691a82f5768757a93d669f",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-joliet-261349",
+      "ij_source_id": "261349",
+      "title": "Joliet, IL - September 2026",
+      "location": {
+        "city": "Joliet",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-03"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Joliet Police Department employee was put on paid administrative leave following an investigation into alleged misuse of the Flock system.",
+      "source_url": "https://patch.com/illinois/joliet/2-more-joliet-police-department-controversies-land-these-2-employees-paid-leave",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "administrative leave"
+      ],
+      "content_hash": "sha256:328a076f493809e58c604c0aca4cd34c4ffc52a36f7a77e51bf56ffe021581e5",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
       "status": "active",
       "verified": false
     },
@@ -366,6 +562,100 @@
       "verified": false
     },
     {
+      "id": "georgia-dekalb-county-261336",
+      "ij_source_id": "261336",
+      "title": "DeKalb County, GA - September 2026",
+      "location": {
+        "city": "DeKalb County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-01"
+      },
+      "classification": "error",
+      "classification_raw": "Error",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A driver was wrongfully pulled over twice after Flock cameras incorrectly flagged her new car twice for purported insurance violations.",
+      "source_url": "https://www.wsbtv.com/news/local/students-new-car-gets-flagged-by-flock-twice-2-days-family-blames-old-data/SCLISOHI45BMDOKIPMAJZFXLUE/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:133c50956b1dad8386c9979f536e4e6a69f7d23851434d538b5f202bf3ce8a34",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-hall-county-261337",
+      "ij_source_id": "261337",
+      "title": "Hall County, GA - September 2026",
+      "location": {
+        "city": "Hall County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Hall County deputy Brandon Sanders resigned after an internal audit uncovered multiple off-duty Flock searches not connected to any police work.",
+      "source_url": "https://www.cbsnews.com/atlanta/news/georgia-sheriff-criticizes-flock-after-audit-ends-with-deputies-fired-failed-from-the-beginning/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:2ccae84be0ee694635b43ea4e1d7234b5b41e3cf3f8f29334be028efa5e616dd",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-west-chicago-261338",
+      "ij_source_id": "261338",
+      "title": "West Chicago, Il - September 2026",
+      "location": {
+        "city": "West Chicago",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed West Chicago officer was placed on paid administrative leave while the police department investigates the officer’s alleged misuse of the Flock system.",
+      "source_url": "https://www.fox32chicago.com/news/west-chicago-officer-possible-flock-camera-misuse",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "administrative leave"
+      ],
+      "content_hash": "sha256:c5bb8ef59e3d26567cfe1aa935ba3cf5ba46013786d840f98fa3f839a3225a05",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "south-carolina-colleton-county-261133",
       "ij_source_id": "261133",
       "title": "Colleton County, SC - August 2026",
@@ -426,6 +716,38 @@
       "content_hash": "sha256:68bd307c0e49be1ce7163bd23bcf4e8835b0ff6b6d5c61a4efffe0180680da7b",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-will-county-261350",
+      "ij_source_id": "261350",
+      "title": "Will County, Illinois - August 2026",
+      "location": {
+        "city": "Will County",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-28"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Will County sheriff’s deputy was placed on leave while authorities investigated the deputy’s alleged misuse of the Flock system.",
+      "source_url": "https://patch.com/illinois/joliet/flock-camera-misbehavior-will-county-sheriffs-office-employee-deputy-placed",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:78ce171ceae066c886ff65522b86f64ee44965c381105756d7cf3e7d5f61e5d0",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
       "status": "active",
       "verified": false
     },
@@ -3646,6 +3968,98 @@
       "verified": false
     },
     {
+      "id": "texas-kingsville-261343",
+      "ij_source_id": "261343",
+      "title": "Kingsville, TX - Jan. 2026",
+      "location": {
+        "city": "Kingsville",
+        "state": "texas",
+        "state_name": "Texas"
+      },
+      "date": {
+        "text": "January 2026",
+        "iso": "2026-01-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Detective Gabriel Garcia resigned in the midst of an investigation into an alleged 5,300 Flock searches “for personal reasons.”",
+      "source_url": "https://www.kristv.com/news/local-news/in-your-neighborhood/kleberg-county/kingsville/kingsville-police-officer-resigned-after-being-confronted-over-personal-use-of-surveillance-cameras-records-show",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:8177660e91a8ab4f383304ac90a0bb0bd8b3cc53d206f9872cda970fc7d3f0e9",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-kettering-261362",
+      "ij_source_id": "261362",
+      "title": "Kettering, OH - January 2026",
+      "location": {
+        "city": "Kettering",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "January 2026",
+        "iso": "2026-01-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Kettering’s Flock system was used 184 times in January for immigration-related searches, despite a vow from the police chief that the cameras wouldn’t be used for that reason.",
+      "source_url": "https://www.daytondailynews.com/local/use-of-kettering-flock-cameras-for-immigration-violates-prior-police-pledge/article_04815c0e-b328-5878-a561-f6e7f51ad906.html",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:81dd0269a1ac85f4fb28a9736259d6c68f621646bc85c7550db0945d0aa74a71",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-shaker-heights-261363",
+      "ij_source_id": "261363",
+      "title": "Shaker Heights, OH - January 2026",
+      "location": {
+        "city": "Shaker Heights",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "January 2026",
+        "iso": "2026-01-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "For months, outside law enforcement agencies were using Shaker Heights’ cameras for immigration-related purposes, contrary to the city’s policy.",
+      "source_url": "https://www.cleveland.com/news/2026/05/activists-uncover-hundreds-of-immigration-related-searches-that-ran-through-shaker-heights-flock-system.html",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:31b9030b977c91c4e655ac2c830a5345592dfe8cd079a8fa886cef9db9829650",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "indiana-jackson-county-261131",
       "ij_source_id": "261131",
       "title": "Jackson County, IN - December 2025",
@@ -3770,6 +4184,36 @@
       "content_hash": "sha256:755f244e2ac83af6624a795a0c0c453a5452ba36c672c716f19b635e024c3e05",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-columbus-261356",
+      "ij_source_id": "261356",
+      "title": "Columbus, OH - November 2025",
+      "location": {
+        "city": "Columbus",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "November 2025",
+        "iso": "2025-11-29"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Joseph Houseberg used the Flock system to investigate another driver with whom he was involved in a crash, in violation of department policy.",
+      "source_url": "https://hoodline.com/2026/08/officer-misused-columbus-flock-cameras-to-investigate-his-own-crash-board-rules/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:3570f5863439326733be842b37c21ffdf8102a693ab40a88ede017d0598e9937",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
       "status": "active",
       "verified": false
     },
@@ -5202,6 +5646,70 @@
       "verified": false
     },
     {
+      "id": "georgia-chatham-county-261376",
+      "ij_source_id": "261376",
+      "title": "Chatham County, GA - December 2024",
+      "location": {
+        "city": "Chatham County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "December 2024",
+        "iso": "2024-12-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "In August 2026, an unnamed Chatham County officer resigned after being questioned about alleged misuse of the Flock system that occurred in late 2024 and early 2025.",
+      "source_url": "https://www.wjcl.com/article/chatham-county-officer-resigns-flock-camera-probe/73618093",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:9eb3f1686813e1166322772bbf27a35cdb6fdeeb4d8463cf0c371e026979af9a",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "kentucky-louisville-261367",
+      "ij_source_id": "261367",
+      "title": "Louisville, KY - November 2024",
+      "location": {
+        "city": "Louisville",
+        "state": "kentucky",
+        "state_name": "Kentucky"
+      },
+      "date": {
+        "text": "November 2024",
+        "iso": "2024-11-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "In September 2026 Louisville officer Wesley Troutman, who had previously been disciplined for sharing his Flock login with a DEA agent, was again put under investigation for allegedly searching for a colleague’s vehicle.",
+      "source_url": "https://www.youtube.com/watch?v=rI47rb4G_EM",
+      "outcomes": [
+        "under_investigation"
+      ],
+      "outcome_matches": [
+        "under investigation"
+      ],
+      "content_hash": "sha256:35d138db7fc593d9afdde8085c90cec3ee925b2f03781d01b774e53a1c0117c6",
+      "first_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "ohio-highland-heights-260702",
       "ij_source_id": "260702",
       "title": "Highland Heights, OH - October 2024",
@@ -5761,19 +6269,19 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Former Coffee County Sheriff’s Deputy Chris Rozar was charged with multiple criminal offenses after allegedly using the department’s Flock system to stalk a woman he was romantically interested in. Rozar was fired from the department at the beginning of the investigation.",
+      "description": "Former Coffee County Sheriff’s Deputy Chris Rozar was charged with multiple criminal offenses after allegedly using the department’s Flock system to stalk a woman he was romantically interested in. Rozar resigned several weeks into the investigation.",
       "source_url": "https://www.walb.com/2026/05/08/former-coffee-co-deputy-accused-tracking-woman-through-law-enforcement-systems/",
       "outcomes": [
-        "fired",
+        "resigned",
         "charged"
       ],
       "outcome_matches": [
-        "fired",
+        "resigned",
         "charged"
       ],
-      "content_hash": "sha256:89c48553b8c147773e984e63f21a9e165a19efd328b9959ac6b828212bd859fa",
+      "content_hash": "sha256:85ef16134c4b133d04c0d22580f765a58f3d20c007544c71d2c7a8a66ff3b700",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-08T16:54:17.014Z",
       "status": "active",
       "verified": false
     },
