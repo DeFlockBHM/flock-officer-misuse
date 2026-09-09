@@ -1,10 +1,42 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-08T16:54:17.026Z",
+  "generated_at": "2026-09-09T16:56:57.878Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 219,
+  "count": 222,
   "incidents": [
+    {
+      "id": "north-carolina-wrightsville-beach-261424",
+      "ij_source_id": "261424",
+      "title": "Wrightsville Beach, NC - September 2026",
+      "location": {
+        "city": "Wrightsville Beach",
+        "state": "north-carolina",
+        "state_name": "North Carolina"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-08"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Wrightsville Beach officer was fired and referred for criminal investigation after unspecified misuse of the Flock system.",
+      "source_url": "https://www.wect.com/2026/09/08/wrightsville-beach-officer-no-longer-employed-over-flock-camera-violation/",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:d17f68fe6390c97c060b405ba0100514d4e2dbe051715fbeb28bb135ea382b47",
+      "first_seen_at": "2026-09-09T16:56:57.867Z",
+      "last_seen_at": "2026-09-09T16:56:57.867Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "massachusetts-swampscott-261339",
       "ij_source_id": "261339",
@@ -652,6 +684,36 @@
       "content_hash": "sha256:c5bb8ef59e3d26567cfe1aa935ba3cf5ba46013786d840f98fa3f839a3225a05",
       "first_seen_at": "2026-09-08T16:54:17.014Z",
       "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "virginia-alexandria-261430",
+      "ij_source_id": "261430",
+      "title": "Alexandria, VA - September 2026",
+      "location": {
+        "city": "Alexandria",
+        "state": "virginia",
+        "state_name": "Virginia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Audit reports and emails obtained by the Alexandria Times show at least 56 instances of apparent misuse of the Alexandria Flock database, with the majority of those cases involving a lack of a case number or adequate explanation for the search, a violation of department policy.",
+      "source_url": "https://alextimes.com/local-news/city-under-watch-times-uncovers-more-flock-cameras-than-previously-disclosed/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:94cc940e1c375fe67bf2a172558ba36b13a0c9d1513b93e053c888a554c0c5c2",
+      "first_seen_at": "2026-09-09T16:56:57.867Z",
+      "last_seen_at": "2026-09-09T16:56:57.867Z",
       "status": "active",
       "verified": false
     },
@@ -3980,22 +4042,22 @@
         "text": "January 2026",
         "iso": "2026-01-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Detective Gabriel Garcia resigned in the midst of an investigation into an alleged 5,300 Flock searches “for personal reasons.”",
-      "source_url": "https://www.kristv.com/news/local-news/in-your-neighborhood/kleberg-county/kingsville/kingsville-police-officer-resigned-after-being-confronted-over-personal-use-of-surveillance-cameras-records-show",
+      "description": "Detective Gabriel Garcia resigned in the midst of an investigation into an alleged 5,300 Flock searches “for personal reasons.” His surveillance targets included city officials in a nearby town who were in a relationship, one of whom he was also in a relationship with.",
+      "source_url": "https://texasscorecard.com/local/kingsville-police-officer-accused-of-flock-camera-misuse-resigns/",
       "outcomes": [
         "resigned"
       ],
       "outcome_matches": [
         "resigned"
       ],
-      "content_hash": "sha256:8177660e91a8ab4f383304ac90a0bb0bd8b3cc53d206f9872cda970fc7d3f0e9",
+      "content_hash": "sha256:8110bfe6b5157ae7ad13e04ea6e30f98014770263543e0c8d492de37abd84320",
       "first_seen_at": "2026-09-08T16:54:17.014Z",
-      "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "last_seen_at": "2026-09-09T16:56:57.867Z",
       "status": "active",
       "verified": false
     },
@@ -4566,6 +4628,38 @@
       "content_hash": "sha256:116e6c1d2130a28da01df25516cfbb70ba78c670f6a7607727f13c4f0b75eddd",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "florida-fort-pierce-261429",
+      "ij_source_id": "261429",
+      "title": "Fort Pierce, FL - October 2025",
+      "location": {
+        "city": "Fort Pierce",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "October 2025",
+        "iso": "2025-10-01"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Fort Pierce officer Josepher Crutchfield was charged with four database misuse felonies after allegedly using the Flock system to track his ex-girlfriend hundreds of times. Crutchfield’s abuse of the system came to light after a media outlet contacted the department.",
+      "source_url": "https://cbs12.com/news/local/former-fort-pierce-officer-arrested-over-alleged-misuse-of-police-databases-fort-pierce-police-department-fort-pierce-former-police-officer-former-officer-arrested-police-arrest-database-misuse-police-database-database-systems-law-enforcement",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:3bec982dc4a7c33bfc6a7bd62d25e5e6eee6264a49df92e4a71a4e86abc7c159",
+      "first_seen_at": "2026-09-09T16:56:57.867Z",
+      "last_seen_at": "2026-09-09T16:56:57.867Z",
       "status": "active",
       "verified": false
     },
