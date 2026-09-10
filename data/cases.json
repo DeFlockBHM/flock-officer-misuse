@@ -1,10 +1,102 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-09T16:56:57.878Z",
+  "generated_at": "2026-09-10T16:45:17.334Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 222,
+  "count": 226,
   "incidents": [
+    {
+      "id": "south-carolina-anderson-county-261538",
+      "ij_source_id": "261538",
+      "title": "Anderson County, SC - September 2026",
+      "location": {
+        "city": "Anderson County",
+        "state": "south-carolina",
+        "state_name": "South Carolina"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-10"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Deputy Eric Center resigned after the start of an investigation into his improper use of the Flock system. The sheriff’s office stated the misconduct was a policy violation but not a criminal matter, and no charges will be filed.",
+      "source_url": "https://www.foxcarolina.com/2026/09/09/deputies-former-anderson-co-deputy-will-not-face-charges-after-misusing-flock/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:6cddf3866a8b2158f55db33fcc697b0c2db848e10707e3872416a90def34e8bd",
+      "first_seen_at": "2026-09-10T16:45:17.321Z",
+      "last_seen_at": "2026-09-10T16:45:17.321Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-peachtree-city-261539",
+      "ij_source_id": "261539",
+      "title": "Peachtree City, GA - September 2026",
+      "location": {
+        "city": "Peachtree City",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-10"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "One of two unnamed Peachtree City officers no longer employed by the agency after allegedly misusing the Flock system. The cases have been referred to the Georgia Bureau of Investigation for possible criminal prosecution, according to reporting by TheCitizen.com.",
+      "source_url": "https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:16f0aab532e9ad367d4c7e4123f1bab02648fd96b22c81654f107016ac1e892c",
+      "first_seen_at": "2026-09-10T16:45:17.321Z",
+      "last_seen_at": "2026-09-10T16:45:17.321Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-peachtree-city-261540",
+      "ij_source_id": "261540",
+      "title": "Peachtree City, GA - September 2026",
+      "location": {
+        "city": "Peachtree City",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-10"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "One of two unnamed Peachtree City officers no longer employed by the agency after allegedly misusing the Flock system. The cases have been referred to the Georgia Bureau of Investigation for possible criminal prosecution, according to reporting by TheCitizen.com.",
+      "source_url": "https://thecitizen.com/2026/09/10/two-peachtree-city-officers-gone-after-flock-misuse-reform-is-needed/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:16f0aab532e9ad367d4c7e4123f1bab02648fd96b22c81654f107016ac1e892c",
+      "first_seen_at": "2026-09-10T16:45:17.321Z",
+      "last_seen_at": "2026-09-10T16:45:17.321Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "north-carolina-wrightsville-beach-261424",
       "ij_source_id": "261424",
@@ -5768,6 +5860,38 @@
       "content_hash": "sha256:9eb3f1686813e1166322772bbf27a35cdb6fdeeb4d8463cf0c371e026979af9a",
       "first_seen_at": "2026-09-08T16:54:17.014Z",
       "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-albany-county-261541",
+      "ij_source_id": "261541",
+      "title": "Albany County, NY - December 2024",
+      "location": {
+        "city": "Albany County",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "December 2024",
+        "iso": "2024-12-01"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Investigator Laurie Moore was criminally charged after running more than 4,000 unauthorized Flock searches, including 3,000 searches for her ex-girlfriend’s vehicle.",
+      "source_url": "https://cbs6albany.com/news/local/sheriffs-office-employee-arrested-accused-of-unauthorized-access-to-law-databases-albany-county-sheriffs-office-press-conference-case-enforcement-wednesday-sept-9-2026-craig-d-apple-sr-district-attorney-lee-c-kindlon-cbs6-wrgb",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:15c14206dc68e54aa866b9a8b95f181e51b0463c7e9039f1631ba190e66a5cd7",
+      "first_seen_at": "2026-09-10T16:45:17.321Z",
+      "last_seen_at": "2026-09-10T16:45:17.321Z",
       "status": "active",
       "verified": false
     },
