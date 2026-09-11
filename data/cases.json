@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-10T16:45:17.334Z",
+  "generated_at": "2026-09-11T16:49:29.857Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 226,
+  "count": 227,
   "incidents": [
     {
       "id": "south-carolina-anderson-county-261538",
@@ -5296,6 +5296,40 @@
       "content_hash": "sha256:d6bbfa82f035c93c264c8a07657929044e8945b8aa3a21c0a8f9898bcf098126",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-athens-261650",
+      "ij_source_id": "261650",
+      "title": "Athens, GA - July 2025",
+      "location": {
+        "city": "Athens",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "July 2025",
+        "iso": "2025-07-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A civilian employee at the University of Georgia police department was demoted and suspended without pay for using the Flock system to investigate off-campus incidents he had a personal interest in.",
+      "source_url": "https://news.uga.edu/uga-police-department-disciplines-it-employee-for-unauthorized-flock-use/",
+      "outcomes": [
+        "suspended",
+        "demoted"
+      ],
+      "outcome_matches": [
+        "suspended",
+        "demoted"
+      ],
+      "content_hash": "sha256:c288b4c4bd0fd9b217d1138fcf098a30270dc2104e40cbcbc6dd47468f4dd262",
+      "first_seen_at": "2026-09-11T16:49:29.844Z",
+      "last_seen_at": "2026-09-11T16:49:29.844Z",
       "status": "active",
       "verified": false
     },
