@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-11T16:49:29.857Z",
+  "generated_at": "2026-09-12T15:55:58.781Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 227,
+  "count": 228,
   "incidents": [
     {
       "id": "south-carolina-anderson-county-261538",
@@ -6180,6 +6180,38 @@
       "content_hash": "sha256:2a88e5816eb0078a411c1324d27a1e4d7fea98c3e80628761617d4dbfb7a0f1d",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-braselton-261692",
+      "ij_source_id": "261692",
+      "title": "Braselton, GA - June 2024",
+      "location": {
+        "city": "Braselton",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "July 2024",
+        "iso": "2024-07-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Braselton officer was fired and referred for criminal prosecution after allegedly misusing the Flock system in 2024 and 2025.",
+      "source_url": "https://www.atlantanewsfirst.com/2026/09/11/braselton-police-officer-fired-allegedly-misusing-flock-camera-system/",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:b666acbbecd8562e017f4b296ba84c1cdd7118e2d940e4381454d877e7efd2c6",
+      "first_seen_at": "2026-09-12T15:55:58.770Z",
+      "last_seen_at": "2026-09-12T15:55:58.770Z",
       "status": "active",
       "verified": false
     },
