@@ -1,10 +1,44 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-13T16:44:40.081Z",
+  "generated_at": "2026-09-14T18:16:13.129Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 228,
+  "count": 231,
   "incidents": [
+    {
+      "id": "california-san-jose-261702",
+      "ij_source_id": "261702",
+      "title": "San Jose, California - September 2026",
+      "location": {
+        "city": "San Jose",
+        "state": "california",
+        "state_name": "California"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-12"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed San Jose police officer was fired after allegedly using the Flock system to track a domestic violence victim on behalf of her abuser. He was not criminally charged.",
+      "source_url": "https://www.theguardian.com/us-news/2026/sep/13/san-jose-officer-fired-flock-camera-misuse",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:eef02030087db1f1826f4b8a984cbc83df0b5b9167cbb73b0beb3b90eea00422",
+      "first_seen_at": "2026-09-14T18:16:13.118Z",
+      "last_seen_at": "2026-09-14T18:16:13.118Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "south-carolina-anderson-county-261538",
       "ij_source_id": "261538",
@@ -1254,6 +1288,38 @@
       "content_hash": "sha256:1ae136f86454c819fd8308e12792935801b51c0909919b110bb77509bb369a1b",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-creve-coeur-261704",
+      "ij_source_id": "261704",
+      "title": "Creve Coeur, IL - August 2026",
+      "location": {
+        "city": "Creve Coeur",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-21"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Creve Coeur police chief Justin Egan resigned after allegedly using the department’s Flock cameras to keep tabs on his ex-wife, who was seeking an order of protection against him. Egan also allegedly instructed other officers to track her.",
+      "source_url": "https://www.wcbu.org/local-news/2026-09-12/creve-coeur-police-in-state-of-chaos-as-former-chief-investigated-for-misconduct",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:a1ea1f1ef321815b7477f151fbd8023bd1365bc44752424a9c674dbf7c36f03f",
+      "first_seen_at": "2026-09-14T18:16:13.118Z",
+      "last_seen_at": "2026-09-14T18:16:13.118Z",
       "status": "active",
       "verified": false
     },
@@ -5582,6 +5648,36 @@
       "content_hash": "sha256:722a13091246fa6b6ed1bae157f8cfebbc4c01554b277728b4acebc310256aeb",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "massachusetts-boston-261703",
+      "ij_source_id": "261703",
+      "title": "Boston, MA - April 2025",
+      "location": {
+        "city": "Boston",
+        "state": "massachusetts",
+        "state_name": "Massachusetts"
+      },
+      "date": {
+        "text": "April 2025",
+        "iso": "2025-04-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Flock Safety was allowing outside agencies to access Boston’s Flock data, violating the terms of city’s contract.",
+      "source_url": "https://www.wbur.org/news/2026/09/14/flock-boston-police-pilot-surveillance-technology-report",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:f031dd81c034d6ca9a0398339e13d536c517fe9d01dd8e920acced19fa4f085c",
+      "first_seen_at": "2026-09-14T18:16:13.118Z",
+      "last_seen_at": "2026-09-14T18:16:13.118Z",
       "status": "active",
       "verified": false
     },
