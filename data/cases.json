@@ -1,10 +1,104 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-14T18:16:13.129Z",
+  "generated_at": "2026-09-15T17:24:28.249Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 231,
+  "count": 234,
   "incidents": [
+    {
+      "id": "florida-indian-river-county-261741",
+      "ij_source_id": "261741",
+      "title": "Indian River County, FL - September 2026",
+      "location": {
+        "city": "Indian River County",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-15"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Indian River County sheriff’s office sergeant John Finnegan was placed on leave after a reporter inquired about potential misuse of the Flock system.",
+      "source_url": "https://veronews.com/2026/09/14/sheriffs-sgt-on-paid-leave-amid-investigation-into-misuse-of-flock-system/",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:2e2d8cd8d21c6bfe8ef6aa332da7c41b22a3f6dfc5b48b039f7e3788ba2cde46",
+      "first_seen_at": "2026-09-15T17:24:28.237Z",
+      "last_seen_at": "2026-09-15T17:24:28.237Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-colquitt-county-261742",
+      "ij_source_id": "261742",
+      "title": "Colquitt County, GA - September 2026",
+      "location": {
+        "city": "Colquitt County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-15"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Former deputy Bentley Hughes was arrested and is facing multiple criminal charges over alleged misuse of the Flock system.",
+      "source_url": "https://www.walb.com/2026/09/14/colquitt-county-deputy-arrested-alleged-misuse-flock-cams/",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_matches": [
+        "arrested"
+      ],
+      "content_hash": "sha256:09c17e0553a9c517e167ef5cc1bdba73d925664c4ddaa899fb526e7e3155cfc4",
+      "first_seen_at": "2026-09-15T17:24:28.237Z",
+      "last_seen_at": "2026-09-15T17:24:28.237Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-emerson-261736",
+      "ij_source_id": "261736",
+      "title": "Emerson, GA - September 2026",
+      "location": {
+        "city": "Emerson",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-14"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Former Emerson officer Anthony Trapani is facing multiple criminal charges after allegedly misusing the Flock system at two separate police departments.",
+      "source_url": "https://www.atlantanewsfirst.com/2026/09/14/former-emerson-police-officer-arrested-allegedly-misusing-flock-camera-system-gbi-says/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:a80683a70c161c054e2bd189f21b3bf0186fdd4157975c4718913ff6daceab68",
+      "first_seen_at": "2026-09-15T17:24:28.237Z",
+      "last_seen_at": "2026-09-15T17:24:28.237Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "california-san-jose-261702",
       "ij_source_id": "261702",
@@ -1100,38 +1194,6 @@
       "verified": false
     },
     {
-      "id": "texas-lufkin-260700",
-      "ij_source_id": "260700",
-      "title": "Lufkin, TX - August 2026",
-      "location": {
-        "city": "Lufkin",
-        "state": "texas",
-        "state_name": "Texas"
-      },
-      "date": {
-        "text": "August 2026",
-        "iso": "2026-08-23"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "A second unnamed Lufkin officer was placed on administrative leave pending an investigation into potential Flock misuse.",
-      "source_url": "https://www.ktre.com/2026/08/20/1-officer-arrested-1-placed-leave-amid-lufkin-flock-camera-misuse-investigation/",
-      "outcomes": [
-        "administrative_leave"
-      ],
-      "outcome_matches": [
-        "administrative leave"
-      ],
-      "content_hash": "sha256:be1bf6feeb46ca8dd5dbff003cbebc4258233fb5f784db3fa6aabd7b6691338b",
-      "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
-      "status": "active",
-      "verified": false
-    },
-    {
       "id": "massachusetts-lynn-260703",
       "ij_source_id": "260703",
       "title": "Lynn, MA - August 2026",
@@ -1257,6 +1319,38 @@
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
       "status": "active",
+      "verified": false
+    },
+    {
+      "id": "texas-lufkin-260700",
+      "ij_source_id": "260700",
+      "title": "Lufkin, TX - August 2026",
+      "location": {
+        "city": "Lufkin",
+        "state": "texas",
+        "state_name": "Texas"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-23"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A second unnamed Lufkin officer was placed on administrative leave pending an investigation into potential Flock misuse.",
+      "source_url": "https://www.ktre.com/2026/08/20/1-officer-arrested-1-placed-leave-amid-lufkin-flock-camera-misuse-investigation/",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "administrative leave"
+      ],
+      "content_hash": "sha256:be1bf6feeb46ca8dd5dbff003cbebc4258233fb5f784db3fa6aabd7b6691338b",
+      "first_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "removed_from_source",
       "verified": false
     },
     {
