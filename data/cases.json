@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-15T17:24:28.249Z",
+  "generated_at": "2026-09-16T17:23:04.835Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 234,
+  "count": 237,
   "incidents": [
     {
       "id": "florida-indian-river-county-261741",
@@ -96,6 +96,38 @@
       "content_hash": "sha256:a80683a70c161c054e2bd189f21b3bf0186fdd4157975c4718913ff6daceab68",
       "first_seen_at": "2026-09-15T17:24:28.237Z",
       "last_seen_at": "2026-09-15T17:24:28.237Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "south-carolina-anderson-county-261771",
+      "ij_source_id": "261771",
+      "title": "Anderson County, SC - September 2026",
+      "location": {
+        "city": "Anderson County",
+        "state": "south-carolina",
+        "state_name": "South Carolina"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-14"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Anderson County deputy Caleb Dixon resigned in the middle of an investigation into alleged Flock misuse.",
+      "source_url": "https://www.foxcarolina.com/2026/09/15/deputy-resigns-amid-investigation-into-misuse-flock-sheriffs-office-says/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:b1f2462b2363937f4040493614320d86fe62fc409c2e46905a431764fdd5909a",
+      "first_seen_at": "2026-09-16T17:23:04.819Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
       "status": "active",
       "verified": false
     },
@@ -2590,6 +2622,38 @@
       "verified": false
     },
     {
+      "id": "nevada-carson-city-261769",
+      "ij_source_id": "261769",
+      "title": "Carson City, NV - August 2026",
+      "location": {
+        "city": "Carson City",
+        "state": "nevada",
+        "state_name": "Nevada"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A Carson City Sheriff’s Office employee resigned after allegedly misusing the Flock camera system.",
+      "source_url": "https://www.nevadaappeal.com/news/2026/sep/15/ccso-employee-resigns-following-allegations-of-improper-flock-camera-use/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:840aff8d8378f4185ad3a1ed2cb067b0600611c03766d56cb9b2c1e0ef0bbc89",
+      "first_seen_at": "2026-09-16T17:23:04.819Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "georgia-albany-259810",
       "ij_source_id": "259810",
       "title": "Albany, GA - July 2026",
@@ -3328,13 +3392,13 @@
         "text": "July 2026",
         "iso": "2026-07-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Officer Donald Phillips was fired and charged with two counts of misuse of a license plate reader system and one count of violation of oath of office.",
-      "source_url": "https://www.wtoc.com/2026/08/21/there-is-no-excuse-breaking-that-trust-gbi-arrests-4-former-savannah-pd-employees-flock-misuse-case/",
+      "description": "Officer Donald Phillips was fired and charged with two counts of misuse of a license plate reader system and one count of violation of oath of office for allegedly making 400 searches of his ex-girlfriend and another person he knew.",
+      "source_url": "https://www.wjcl.com/article/former-savannah-police-employees-appeal-firings-over-alleged-flock-camera-misuse/73752728",
       "outcomes": [
         "fired",
         "charged"
@@ -3343,9 +3407,9 @@
         "fired",
         "charged"
       ],
-      "content_hash": "sha256:88862075c1b6a963cc1845e2017e80b685b5291479abda50910e43e016698a87",
+      "content_hash": "sha256:fd30237000d54c5aed0604150ba3f76788cf0c7752ec501d331d1a1e451e8b4a",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
       "status": "active",
       "verified": false
     },
@@ -3362,13 +3426,13 @@
         "text": "July 2026",
         "iso": "2026-07-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Officer Marquis Dillard was fired charged with two counts of misuse of a license plate reader system and one count of violation of oath of office.",
-      "source_url": "https://www.wtoc.com/2026/08/21/there-is-no-excuse-breaking-that-trust-gbi-arrests-4-former-savannah-pd-employees-flock-misuse-case/",
+      "description": "Officer Marquis Dillard was fired charged with two counts of misuse of a license plate reader system and one count of violation of oath of office for allegedly making more than 400 searches of a romantic rival.",
+      "source_url": "https://www.wjcl.com/article/former-savannah-police-employees-appeal-firings-over-alleged-flock-camera-misuse/73752728",
       "outcomes": [
         "fired",
         "charged"
@@ -3377,9 +3441,9 @@
         "fired",
         "charged"
       ],
-      "content_hash": "sha256:057fddfc8255c35c9d9a27246a42f76db04bdd4ec81848f994af045b68f90466",
+      "content_hash": "sha256:267763852b02dcaa005e61cfb76cb05f930fb225e2928b94e83d5399c8f4f3fd",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
       "status": "active",
       "verified": false
     },
@@ -3428,13 +3492,13 @@
         "text": "July 2026",
         "iso": "2026-07-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Calandic Thomas, a community service specialist with the police department, was fired and charged with two counts of misuse of a license plate reader system",
-      "source_url": "https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620",
+      "description": "Calandic Thomas, a community service specialist with the police department, was fired and charged with two counts of misuse of a license plate reader system for allegedly using Flock to search for the father of her child.",
+      "source_url": "https://www.wjcl.com/article/former-savannah-police-employees-appeal-firings-over-alleged-flock-camera-misuse/73752728",
       "outcomes": [
         "fired",
         "charged"
@@ -3443,9 +3507,9 @@
         "fired",
         "charged"
       ],
-      "content_hash": "sha256:4a5ba0df480d8136bcaaf0541187d247e65f383d871b3c2f78fdf07d895c8a8d",
+      "content_hash": "sha256:4b9d80684e6f3957139096cea1dc6c1b941cd7c1206a7bc63fe2996e124f1490",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
       "status": "active",
       "verified": false
     },
@@ -3512,6 +3576,38 @@
       "content_hash": "sha256:5c0d5f3ba6f13053fa6e51af7e2420fb8006c210b90bf96598006ada785e88fd",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "alabama-decatur-261767",
+      "ij_source_id": "261767",
+      "title": "Decatur, AL - June 2016",
+      "location": {
+        "city": "Decatur",
+        "state": "alabama",
+        "state_name": "Alabama"
+      },
+      "date": {
+        "text": "June 2026",
+        "iso": "2026-06-12"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed officer was placed on leave while authorities investigated alleged misuse of the Flock system that occurred on June 12, 2026.",
+      "source_url": "https://1819news.com/news/item/decatur-police-officer-under-investigation-for-possible-misuse-of-license-plate-reader-system",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:bdc7bbf01858ed0a173a447a45a3567744e49c2edf0470d185284d8b6594796d",
+      "first_seen_at": "2026-09-16T17:23:04.819Z",
+      "last_seen_at": "2026-09-16T17:23:04.819Z",
       "status": "active",
       "verified": false
     },
