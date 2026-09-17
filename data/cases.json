@@ -1,10 +1,40 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-16T17:23:04.835Z",
+  "generated_at": "2026-09-17T17:22:26.644Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 237,
+  "count": 240,
   "incidents": [
+    {
+      "id": "texas-texas-city-261830",
+      "ij_source_id": "261830",
+      "title": "Texas City, TX - September 2026",
+      "location": {
+        "city": "Texas City",
+        "state": "texas",
+        "state_name": "Texas"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-17"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "unspecified",
+      "manufacturer_name": "Unspecified",
+      "is_flock": false,
+      "description": "An unnamed civilian employee of the Texas City Police Department was disciplined for unspecified misuse of the ALPR system.",
+      "source_url": "https://www.khou.com/article/news/local/texas-city-police-license-plate-readers-misuse/285-1776dc9f-9e53-4240-a96e-a32d68d98ae8",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:53da518b52c117a3ffef8f92acd43389d53f992bf27e87c3983b3d4701a90cfc",
+      "first_seen_at": "2026-09-17T17:22:26.633Z",
+      "last_seen_at": "2026-09-17T17:22:26.633Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "florida-indian-river-county-261741",
       "ij_source_id": "261741",
@@ -6406,6 +6436,36 @@
       "verified": false
     },
     {
+      "id": "michigan-eastpointe-261816",
+      "ij_source_id": "261816",
+      "title": "Eastpointe, MI - August 2024",
+      "location": {
+        "city": "Eastpointe",
+        "state": "michigan",
+        "state_name": "Michigan"
+      },
+      "date": {
+        "text": "August 2024",
+        "iso": "2024-08-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Eastpointe officer faced “severe discipline” after searching for a single license plate more than 600 times over the course of 10 months. The improper use was first discovered by reporters from USA Today.",
+      "source_url": "https://www.detroitnews.com/story/news/local/macomb-county/2026/09/16/eastpointe-police-officers-investigated-over-improper-flock-use/91762813007/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:ef1794773e4624326a0b588321ac9b6e51968b7c064eb11025b2e23304654ea1",
+      "first_seen_at": "2026-09-17T17:22:26.633Z",
+      "last_seen_at": "2026-09-17T17:22:26.633Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "indiana-lafayette-259790",
       "ij_source_id": "259790",
       "title": "Lafayette, IN - July 2024",
@@ -6498,6 +6558,38 @@
       "content_hash": "sha256:b666acbbecd8562e017f4b296ba84c1cdd7118e2d940e4381454d877e7efd2c6",
       "first_seen_at": "2026-09-12T15:55:58.770Z",
       "last_seen_at": "2026-09-12T15:55:58.770Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "michigan-eastpointe-261817",
+      "ij_source_id": "261817",
+      "title": "Eastpointe, MI - July 2024",
+      "location": {
+        "city": "Eastpointe",
+        "state": "michigan",
+        "state_name": "Michigan"
+      },
+      "date": {
+        "text": "July 2024",
+        "iso": "2024-07-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed officer was placed under investigation after an unspecified Flock policy violation involving looking up the same plate 60 times in a single day. The misuse was first discovered by reporters with USA Today.",
+      "source_url": "https://www.detroitnews.com/story/news/local/macomb-county/2026/09/16/eastpointe-police-officers-investigated-over-improper-flock-use/91762813007/",
+      "outcomes": [
+        "under_investigation"
+      ],
+      "outcome_matches": [
+        "under investigation"
+      ],
+      "content_hash": "sha256:768fab02734f426fbb16d9c20589fb55c4f5488ff21a8baa6cadf1ef603e9732",
+      "first_seen_at": "2026-09-17T17:22:26.633Z",
+      "last_seen_at": "2026-09-17T17:22:26.633Z",
       "status": "active",
       "verified": false
     },
