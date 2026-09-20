@@ -1,10 +1,42 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-17T17:22:26.644Z",
+  "generated_at": "2026-09-20T16:37:55.846Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 240,
+  "count": 242,
   "incidents": [
+    {
+      "id": "florida-vero-beach-261890",
+      "ij_source_id": "261890",
+      "title": "Vero Beach, FL - September 2026",
+      "location": {
+        "city": "Vero Beach",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-18"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Vero Beach police officer was put on leave after a news outlet contacted the department about alleged misuse of the Flock system.",
+      "source_url": "https://www.wpbf.com/article/florida-vero-beach-police-officer-flock-misuse-investigation/73781520",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "put on leave"
+      ],
+      "content_hash": "sha256:5c2988fb61ab176a0f26098a9fb0fb7034092e746e24221fcd0302d85c2248c0",
+      "first_seen_at": "2026-09-20T16:37:55.837Z",
+      "last_seen_at": "2026-09-20T16:37:55.837Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "texas-texas-city-261830",
       "ij_source_id": "261830",
@@ -1028,6 +1060,36 @@
       "content_hash": "sha256:feb9dddf1ecfc18d63a5d66795841378432991eac148e61f5fe1da834b947aae",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "maine-bangor-261892",
+      "ij_source_id": "261892",
+      "title": "Bangor, ME - August 2026",
+      "location": {
+        "city": "Bangor",
+        "state": "maine",
+        "state_name": "Maine"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-31"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "unspecified",
+      "manufacturer_name": "Unspecified",
+      "is_flock": false,
+      "description": "License plate cameras manufactured by Leonardo were retaining data more than 21 days in violation of Maine law. When notified of the problem, technicians with the company were unable to fix it.",
+      "source_url": "https://www.bangordailynews.com/2026/09/18/bangor/bangor-police-courts/leonardo-license-plate-cameras-brewer-breaking-maine-law-joam40zk0w/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:8a8db1f82780430feb610b87c9969b98414c114201c004ce6f321440aba5208c",
+      "first_seen_at": "2026-09-20T16:37:55.837Z",
+      "last_seen_at": "2026-09-20T16:37:55.837Z",
       "status": "active",
       "verified": false
     },
