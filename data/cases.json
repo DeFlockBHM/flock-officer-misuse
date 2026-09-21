@@ -1,10 +1,74 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-20T16:37:55.846Z",
+  "generated_at": "2026-09-21T18:23:21.712Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 242,
+  "count": 245,
   "incidents": [
+    {
+      "id": "florida-port-st-lucie-261970",
+      "ij_source_id": "261970",
+      "title": "Port St. Lucie, FL - September 2026",
+      "location": {
+        "city": "Port St. Lucie",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-21"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Florida Highway Patrol trooper Alain Fernandez was arrested after sending data from Flock and other sensitive databases over Snapchat to other individuals.",
+      "source_url": "https://cbs12.com/news/local/fhp-trooper-accused-of-sending-license-photos-flock-data-over-snapchat-florida-highway-patrol-fhp-trooper-alain-fernandez-fdle-florida-department-of-law-enforcement-flock-flock-cameras-license-plate-readers-automated-license-plate-readers-police",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_matches": [
+        "arrested"
+      ],
+      "content_hash": "sha256:9991a42c13ded602cf7785decbf02dd7975d391f30615ac5a22364a64cdddb6c",
+      "first_seen_at": "2026-09-21T18:23:21.701Z",
+      "last_seen_at": "2026-09-21T18:23:21.701Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-indianapolis-261972",
+      "ij_source_id": "261972",
+      "title": "Indianapolis, IN - September 2026",
+      "location": {
+        "city": "Indianapolis",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-21"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A second unnamed Indianapolis officer was suspended and recommended for termination after allegedly committing unspecified misuse of the license plate reader system.",
+      "source_url": "https://www.wrtv.com/news/crime/second-impd-termination-recommendation/",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:b78155f6355180aaebbc1f5a636034f98a9de9ed3b37c6de79da1ac9596b0c53",
+      "first_seen_at": "2026-09-21T18:23:21.701Z",
+      "last_seen_at": "2026-09-21T18:23:21.701Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "florida-vero-beach-261890",
       "ij_source_id": "261890",
@@ -5960,6 +6024,38 @@
       "content_hash": "sha256:f031dd81c034d6ca9a0398339e13d536c517fe9d01dd8e920acced19fa4f085c",
       "first_seen_at": "2026-09-14T18:16:13.118Z",
       "last_seen_at": "2026-09-14T18:16:13.118Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "massachusetts-braintree-261971",
+      "ij_source_id": "261971",
+      "title": "Braintree, MA - April 2025",
+      "location": {
+        "city": "Braintree",
+        "state": "massachusetts",
+        "state_name": "Massachusetts"
+      },
+      "date": {
+        "text": "April 2025",
+        "iso": "2025-04-01"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Former Braintree detective Mark Sherrick resigned in the midst of an investigation into his alleged use of Flock cameras and other technology to harass his ex-girlfriend, looking up her license plate more than 1,000 times.",
+      "source_url": "https://www.boston.com/news/crime/2026/09/18/former-braintree-detective-mark-sherrick-criminal-harassment-charge/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:8a7bebf057ae64e53869d171badbc2b5580231b5be39d4635994ce4133d2febe",
+      "first_seen_at": "2026-09-21T18:23:21.701Z",
+      "last_seen_at": "2026-09-21T18:23:21.701Z",
       "status": "active",
       "verified": false
     },
