@@ -1,10 +1,226 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-27T17:21:40.429Z",
+  "generated_at": "2026-09-28T19:54:32.258Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 245,
+  "count": 258,
   "incidents": [
+    {
+      "id": "ohio-columbus-262239",
+      "ij_source_id": "262239",
+      "title": "Columbus, OH - September 2026",
+      "location": {
+        "city": "Columbus",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-28"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Stephen O’Brien was suspended pending an investigation into his alleged misuse of the Flock system, which entailed hundreds of searches for the same license plate.",
+      "source_url": "https://www.10tv.com/article/news/local/2nd-columbus-police-officer-under-investigation-alleged-misuse-flock-cameras/530-a9155d87-dcff-4cc8-9be9-75e69f4faf81",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:5fd5ab3d05997f3463c4676b073ab68030207528b5aed719904fb50b07947e0f",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "north-carolina-franklin-county-262233",
+      "ij_source_id": "262233",
+      "title": "Franklin County, NC - September 2026",
+      "location": {
+        "city": "Franklin County",
+        "state": "north-carolina",
+        "state_name": "North Carolina"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Detective Janet Leonard was fired for allegedly using Flock cameras to “track the every movement of a single private citizen,” according to the sheriff.",
+      "source_url": "https://www.heraldsun.com/news/local/crime/article317381051.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-whiteside-county-262262",
+      "ij_source_id": "262262",
+      "title": "Whiteside County, Illinois - September 2026",
+      "location": {
+        "city": "Whiteside County",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Whiteside County deputy was placed on leave after reporters contacted the sheriff’s office about suspicious searches of the same plates hundreds of times.",
+      "source_url": "https://www.rockfordnewsfirst.com/2026/09/26/washington-post-reporter-uncovers-whiteside-county-deputys-flock-searches/",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:b8d88de3ede9f954bd88929496572a7e75cf9f11f771f69a8eddf219ec0e2e93",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-greenfield-262231",
+      "ij_source_id": "262231",
+      "title": "Greenfield, Indiana - September 2026",
+      "location": {
+        "city": "Greenfield",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
+      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-indianapolis-262224",
+      "ij_source_id": "262224",
+      "title": "Indianapolis, IN - September 2026",
+      "location": {
+        "city": "Indianapolis",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-24"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Cassandra Crawley is facing multiple criminal charges for allegedly tracking the license plates of fellow IMPD officers, including one she dated.",
+      "source_url": "https://x.com/ashtonhackmantv/status/2103229996521206205",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:cdd6cd18c0537acd4f2da9630c4cd4e781e89735fc2d79c18a7c9c81eec02460",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-indianapolis-262227",
+      "ij_source_id": "262227",
+      "title": "Indianapolis, IN - September 2026",
+      "location": {
+        "city": "Indianapolis",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-23"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Michael Rogers is facing multiple criminal charges after allegedly using Flock cameras to monitor his wife as well as a firefighter he suspected she was having an affair with.",
+      "source_url": "https://x.com/ashtonhackmantv/status/2103229996521206205",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:a7f9d4d7f9146b2c4090e82a2910cd22d7d72749c87cd5be39f6bd2fff97def6",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-indianapolis-262229",
+      "ij_source_id": "262229",
+      "title": "Indianapolis, IN - September 2026",
+      "location": {
+        "city": "Indianapolis",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-23"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Jonathan Schultz is facing dozens of criminal charges for allegedly using the Flock system to monitor multiple women he was interested in, including his ex-wife and women he met in public.",
+      "source_url": "https://x.com/ashtonhackmantv/status/2103229996521206205",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:2681a46191ddc7348ebaf50e36d7b023e3cb3fbd0d1f1c1bb6793f6a5a3298d1",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "florida-port-st-lucie-261970",
       "ij_source_id": "261970",
@@ -50,22 +266,22 @@
         "text": "September 2026",
         "iso": "2026-09-21"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "A second unnamed Indianapolis officer was suspended and recommended for termination after allegedly committing unspecified misuse of the license plate reader system.",
-      "source_url": "https://www.wrtv.com/news/crime/second-impd-termination-recommendation/",
+      "description": "Officer Matthew Binford was criminally charged after allegedly using another officer’s Flock credentials to track his ex-wife more than 1,000 times.",
+      "source_url": "https://x.com/ashtonhackmantv/status/2103229996521206205",
       "outcomes": [
-        "suspended"
+        "charged"
       ],
       "outcome_matches": [
-        "suspended"
+        "charged"
       ],
-      "content_hash": "sha256:b78155f6355180aaebbc1f5a636034f98a9de9ed3b37c6de79da1ac9596b0c53",
+      "content_hash": "sha256:b76ac5ea27df16f4c51e84dacf60240ab01daef949487cf14b3e90bb794460bc",
       "first_seen_at": "2026-09-21T18:23:21.701Z",
-      "last_seen_at": "2026-09-21T18:23:21.701Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
@@ -2662,22 +2878,22 @@
         "text": "August 2026",
         "iso": "2026-08-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "unspecified",
       "manufacturer_name": "Unspecified",
       "is_flock": false,
-      "description": "An unnamed IMPD officer was suspended and recommended for termination after an internal investigation found they used the department’s ALPR cameras for “personal reasons.”",
-      "source_url": "https://www.wthr.com/article/news/local/impd-officer-suspended-alleged-use-automated-license-plate-readers-personal-reasons/531-f995a9fc-330b-4121-82ca-03a98b682927",
+      "description": "Officer Abigail Cramer resigned and is facing multiple criminal charges after allegedly using Flock cameras to track her wife’s ex-wife.",
+      "source_url": "https://x.com/ashtonhackmantv/status/2103229996521206205",
       "outcomes": [
-        "suspended"
+        "resigned"
       ],
       "outcome_matches": [
-        "suspended"
+        "resigned"
       ],
-      "content_hash": "sha256:8d0db9a9dca6c3bd6c3eca375bbf597d62807aadd14f72a7f38375d0bceb0dc5",
+      "content_hash": "sha256:36ac57281f29a910531fa74b3ae525dbb2441cec7e06133438677535fdbff2be",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
@@ -2806,6 +3022,70 @@
       "content_hash": "sha256:840aff8d8378f4185ad3a1ed2cb067b0600611c03766d56cb9b2c1e0ef0bbc89",
       "first_seen_at": "2026-09-16T17:23:04.819Z",
       "last_seen_at": "2026-09-16T17:23:04.819Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "california-stockton-262221",
+      "ij_source_id": "262221",
+      "title": "Stockton, CA - August 2016",
+      "location": {
+        "city": "Stockton",
+        "state": "california",
+        "state_name": "California"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Stockton Police Department employee was fired for allegedly misusing the Flock camera system.",
+      "source_url": "https://www.kcra.com/article/stockton-police-flock-camera-investigation/73843127",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:aa214f5402832978a39ab38ca023440bbebe12b75dd0c3f252ba7a0429bbd8fa",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "texas-texas-city-262242",
+      "ij_source_id": "262242",
+      "title": "Texas City, Texas - August 2026",
+      "location": {
+        "city": "Texas City",
+        "state": "texas",
+        "state_name": "Texas"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Texas City officer was demoted and given a multi-day suspension after allegedly misusing the Flock system multiple times.",
+      "source_url": "https://www.click2houston.com/news/local/2026/09/23/texas-city-pd-to-present-report-on-flock-cameras-after-two-possible-instances-of-misuse/",
+      "outcomes": [
+        "demoted"
+      ],
+      "outcome_matches": [
+        "demoted"
+      ],
+      "content_hash": "sha256:33f870b57b3077a25df7ea7f0ef63c6fe7ddd64f0ed903e42257fa9cac190bca",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
@@ -4118,6 +4398,38 @@
       "content_hash": "sha256:a7810d36afe1f2e5924a6e0f55e049cce5dd5f2c82aa8356abb54000137de182",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-mansfield-262258",
+      "ij_source_id": "262258",
+      "title": "Mansfield, Ohio - April 2026",
+      "location": {
+        "city": "Mansfield",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "April 2026",
+        "iso": "2026-04-24"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Mansfield 911 dispatcher Shane Behrendsen resigned after using Flock cameras to track down a woman and ask for her phone number.",
+      "source_url": "https://www.mansfieldnewsjournal.com/story/news/local/2026/09/25/mansfield-dispatcher-resigns-over-flock-camera-misuse/91937845007/?gnt-cfr=1&amp;gca-cat=p&amp;gca-uir=false&amp;gca-epti=z113319p001650c001650e005300v113319&amp;gca-ft=35&amp;gca-ds=sophi",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:a2ec31460379fa3854b4107d98f89ff4a352498ea35403d75fd62a463e959b97",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
@@ -5842,6 +6154,38 @@
       "verified": false
     },
     {
+      "id": "illinois-naperville-262220",
+      "ij_source_id": "262220",
+      "title": "Naperville, IL - June 2025",
+      "location": {
+        "city": "Naperville",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "June 2025",
+        "iso": "2025-06-01"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Officer Oscar Maldonado retired in the midst of an investigation of his use of Flock cameras to stalk the former fiancee of a woman he was dating.",
+      "source_url": "https://abc7chicago.com/post/patrick-dowhen-says-naperville-police-officer-oscar-maldonado-used-flock-cameras-stalk-starting-affair-fiance/19859406/",
+      "outcomes": [
+        "retired"
+      ],
+      "outcome_matches": [
+        "retired"
+      ],
+      "content_hash": "sha256:37690ae51feb7051f7f8e8afea6a756d7f94edc77e033ce05dad60faa7156253",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "south-carolina-greer-259852",
       "ij_source_id": "259852",
       "title": "Greer, SC - May 2025",
@@ -6464,6 +6808,38 @@
       "content_hash": "sha256:507a48bbec27709078f29b08b4a841343e57dd35966a448010f865418116dd22",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-atlanta-262252",
+      "ij_source_id": "262252",
+      "title": "Atlanta, Georgia - October 2024",
+      "location": {
+        "city": "Atlanta",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2024",
+        "iso": "2024-10-01"
+      },
+      "classification": "error",
+      "classification_raw": "Error",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Doctoral student Ladavius McNair was wrongfully arrested and spent 30 days in jail after Flock cameras were used to misidentify him as a suspect in a road rage shooting.",
+      "source_url": "https://www.11alive.com/article/news/local/atlanta-man-jailed-mistaken-suspect-case-flock-cameras/85-0f33a5d2-7dc8-432e-9f7f-f5ca9c7020c3",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_matches": [
+        "arrested"
+      ],
+      "content_hash": "sha256:d77532d213243970b907d729fcd3ff4b0226c02a54cff0ef7df5989b585f7e5c",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
@@ -7102,6 +7478,38 @@
       "content_hash": "sha256:85ef16134c4b133d04c0d22580f765a58f3d20c007544c71d2c7a8a66ff3b700",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-08T16:54:17.014Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "florida-port-canaveral-fl-262246",
+      "ij_source_id": "262246",
+      "title": "Port Canaveral, FL - April 2024",
+      "location": {
+        "city": "Port Canaveral, FL",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "April 2024",
+        "iso": "2024-04-01"
+      },
+      "classification": "error",
+      "classification_raw": "Error",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Maurice Walters was wrongfully arrested in Florida after a Flock camera misidentified his car for one that had previously been involved in a police chase. Walters spent 12 days in jail.",
+      "source_url": "https://www.youtube.com/watch?v=UDAvyIjqRuU",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_matches": [
+        "arrested"
+      ],
+      "content_hash": "sha256:67303d1708d156a06cc9fd5aae8bbfc41146d77f0c0269750d9bbf5fb8a978bb",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
       "verified": false
     },
