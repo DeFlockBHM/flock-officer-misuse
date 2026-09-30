@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-29T18:23:04.496Z",
+  "generated_at": "2026-09-30T18:12:29.195Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 258,
+  "count": 259,
   "incidents": [
     {
       "id": "ohio-columbus-262239",
@@ -34,6 +34,36 @@
       "content_hash": "sha256:5fd5ab3d05997f3463c4676b073ab68030207528b5aed719904fb50b07947e0f",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "kentucky-lexington-262305",
+      "ij_source_id": "262305",
+      "title": "Lexington, KY - September 2026",
+      "location": {
+        "city": "Lexington",
+        "state": "kentucky",
+        "state_name": "Kentucky"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-26"
+      },
+      "classification": "error",
+      "classification_raw": "Error",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Lexington police arrived at the home of an innocent couple with guns drawn in the middle of the night after a Flock camera misidentified their truck as one involved in a road rage incident.",
+      "source_url": "https://www.wkyt.com/video/2026/09/28/lexington-man-says-flock-camera-hit-truck-mistakenly-led-police-his-home/?outputType=amp",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:2e0d5afd0ad9ab67aad8e6317fc64edd5f00413526280e83c4442c17f920fcca",
+      "first_seen_at": "2026-09-30T18:12:29.180Z",
+      "last_seen_at": "2026-09-30T18:12:29.180Z",
       "status": "active",
       "verified": false
     },
