@@ -1,10 +1,202 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-09-30T18:12:29.195Z",
+  "generated_at": "2026-10-01T18:38:07.483Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 259,
+  "count": 265,
   "incidents": [
+    {
+      "id": "florida-pinellas-county-262381",
+      "ij_source_id": "262381",
+      "title": "Pinellas County, FL - September 2026",
+      "location": {
+        "city": "Pinellas County",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Deputy Karl Gwynne was arrested for allegedly using the Flock system to search 300 times for a woman he was interested in dating. His abuse was discovered after reporters with TCPalm noticed unusual patterns in the department’s audit data.",
+      "source_url": "https://www.tampabay28.com/news/region-pinellas/pinellas-sheriff-acknowledges-gaps-in-flock-style-camera-oversight-after-deputys-arrest",
+      "outcomes": [
+        "arrested"
+      ],
+      "outcome_matches": [
+        "arrested"
+      ],
+      "content_hash": "sha256:632ccd5397ed9716a6f7d0c7632b3733a6a7b8efbb64ec8c255b4295e1f717ff",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "virginia-james-city-county-262382",
+      "ij_source_id": "262382",
+      "title": "James City County, VA - September 2026",
+      "location": {
+        "city": "James City County",
+        "state": "virginia",
+        "state_name": "Virginia"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "unspecified",
+      "manufacturer_name": "Unspecified",
+      "is_flock": false,
+      "description": "Androu A. Eskanda was charged with eight felonies and five misdemeanors for allegedly using an ALPR system for non-law enforcement purposes.",
+      "source_url": "https://www.wavy.com/news/crime/former-james-city-county-officer-faces-charges-following-criminal-investigation/",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:5b862b2bc6c039c8c5bd0b90047c93f47cd0b9059a5a4f7d5017be3ffbcf8941",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262411",
+      "ij_source_id": "262411",
+      "title": "Cheektowaga, NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga officer Robert Dombrowski was suspended for allegedly using Flock cameras to track a fellow employee. The alleged abuse happened when Dombrowski was employed as a dispatcher.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:0ead45f480f8c647c36a1a423e16f29fd1446bbdc9f4ca459a057ff786433907",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262412",
+      "ij_source_id": "262412",
+      "title": "Cheektowaga, NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Anthony Filipski was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:227248f3746694e070fd1f510119cfb74dd84dcf347cd73c75523788c417741a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262413",
+      "ij_source_id": "262413",
+      "title": "Cheektowaga NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Lauren Seibr was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-akron-262414",
+      "ij_source_id": "262414",
+      "title": "Akron, OH - September 2026",
+      "location": {
+        "city": "Akron",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Akron officer Davon Fields was able to continue searching the Flock network while on leave after fatally shooting a 15-year-old boy, and again while under suspension following sexual assault allegations. Fields has been fired and is under criminal investigation for the Flock searches.",
+      "source_url": "https://www.yahoo.com/news/us/articles/summit-county-sheriff-investigate-davon-182151823.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "ohio-columbus-262239",
       "ij_source_id": "262239",
