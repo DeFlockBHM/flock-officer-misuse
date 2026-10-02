@@ -1,10 +1,40 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-01T18:38:07.483Z",
+  "generated_at": "2026-10-02T18:07:38.812Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 265,
+  "count": 266,
   "incidents": [
+    {
+      "id": "florida-st-lucie-county-262437",
+      "ij_source_id": "262437",
+      "title": "St. Lucie County, FL - September 2026",
+      "location": {
+        "city": "St. Lucie County",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "St. Lucie County officials were unable to ascertain the owner of multiple Flock cameras within the county, or whether anyone had access to their data.",
+      "source_url": "https://www.washingtonpost.com/nation/2026/10/01/florida-county-discovers-mysterious-flock-cameras-with-no-obvious-owner/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:65f139688ed664fb47aec137f079ca04f0152c7d7c8f1375a46b89bd748a47c5",
+      "first_seen_at": "2026-10-02T18:07:38.797Z",
+      "last_seen_at": "2026-10-02T18:07:38.797Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "florida-pinellas-county-262381",
       "ij_source_id": "262381",
