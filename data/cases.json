@@ -1,10 +1,110 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-04T17:11:32.846Z",
+  "generated_at": "2026-10-09T18:35:13.490Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 266,
+  "count": 271,
   "incidents": [
+    {
+      "id": "georgia-athens-262627",
+      "ij_source_id": "262627",
+      "title": "Athens, GA - October 2026",
+      "location": {
+        "city": "Athens",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-08"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Athens-Clarke County police officer Tyler Vaugh was fired and criminally charged after allegedly using the Flock system to track the location of an ex-girlfriend.",
+      "source_url": "https://www.wsbtv.com/news/local/clarke-county/north-georgia-officer-terminated-accused-misusing-flock-safety-system-track-ex-girlfriend/6DRWCJN55FGDVJGAGB6WMMVROA/",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:3634d0a8e6a573f961dbb66cab3d4425e0b16c7af3781e3338a39e23407030d0",
+      "first_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "virginia-chesterfield-county-262503",
+      "ij_source_id": "262503",
+      "title": "Chesterfield County, VA - October 2026",
+      "location": {
+        "city": "Chesterfield County",
+        "state": "virginia",
+        "state_name": "Virginia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-05"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Intelligence investigator Rebekkah Robinson was arrested and charged with multiple crimes after other employees reported concerns with her use of the Flock system.",
+      "source_url": "https://www.wric.com/news/local-news/chesterfield-county/police-employee-misusing-flock-cameras-debate-safeguards/",
+      "outcomes": [
+        "arrested",
+        "charged"
+      ],
+      "outcome_matches": [
+        "arrested",
+        "charged"
+      ],
+      "content_hash": "sha256:27e8bcae2d627155e2b62853f2ac555941cf7423a981c2494373f5d71c2f316f",
+      "first_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "michigan-oakland-county-262502",
+      "ij_source_id": "262502",
+      "title": "Oakland County, MI - October 2026",
+      "location": {
+        "city": "Oakland County",
+        "state": "michigan",
+        "state_name": "Michigan"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-05"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A former Oakland County deputy is being investigated for misuse of the Flock system after allegedly accessing the system after they were no longer employed by the sheriff’s office.",
+      "source_url": "https://www.cbsnews.com/detroit/news/oakland-county-sheriffs-office-investigate-flock-misuse/",
+      "outcomes": [
+        "under_investigation"
+      ],
+      "outcome_matches": [
+        "being investigated"
+      ],
+      "content_hash": "sha256:c53e3b1dddac4d0926850f924175804d93039d2f0d4c298d4dbe383af0e92717",
+      "first_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "florida-st-lucie-county-262437",
       "ij_source_id": "262437",
@@ -32,6 +132,102 @@
       "content_hash": "sha256:65f139688ed664fb47aec137f079ca04f0152c7d7c8f1375a46b89bd748a47c5",
       "first_seen_at": "2026-10-02T18:07:38.797Z",
       "last_seen_at": "2026-10-02T18:07:38.797Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-akron-262414",
+      "ij_source_id": "262414",
+      "title": "Akron, OH - September 2026",
+      "location": {
+        "city": "Akron",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Akron officer Davon Fields was able to continue searching the Flock network while on leave after fatally shooting a 15-year-old boy, and again while under suspension following sexual assault allegations. Fields has been fired and is under criminal investigation for the Flock searches.",
+      "source_url": "https://www.yahoo.com/news/us/articles/summit-county-sheriff-investigate-davon-182151823.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262413",
+      "ij_source_id": "262413",
+      "title": "Cheektowaga NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Lauren Seibr was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262412",
+      "ij_source_id": "262412",
+      "title": "Cheektowaga, NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Anthony Filipski was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:227248f3746694e070fd1f510119cfb74dd84dcf347cd73c75523788c417741a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
       "verified": false
     },
@@ -132,102 +328,6 @@
       "verified": false
     },
     {
-      "id": "new-york-cheektowaga-262412",
-      "ij_source_id": "262412",
-      "title": "Cheektowaga, NY - September 2026",
-      "location": {
-        "city": "Cheektowaga",
-        "state": "new-york",
-        "state_name": "New York"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Cheektowaga dispatcher Anthony Filipski was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
-      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
-      "outcomes": [
-        "suspended"
-      ],
-      "outcome_matches": [
-        "suspended"
-      ],
-      "content_hash": "sha256:227248f3746694e070fd1f510119cfb74dd84dcf347cd73c75523788c417741a",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "new-york-cheektowaga-262413",
-      "ij_source_id": "262413",
-      "title": "Cheektowaga NY - September 2026",
-      "location": {
-        "city": "Cheektowaga",
-        "state": "new-york",
-        "state_name": "New York"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Cheektowaga dispatcher Lauren Seibr was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
-      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
-      "outcomes": [
-        "suspended"
-      ],
-      "outcome_matches": [
-        "suspended"
-      ],
-      "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "ohio-akron-262414",
-      "ij_source_id": "262414",
-      "title": "Akron, OH - September 2026",
-      "location": {
-        "city": "Akron",
-        "state": "ohio",
-        "state_name": "Ohio"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Akron officer Davon Fields was able to continue searching the Flock network while on leave after fatally shooting a 15-year-old boy, and again while under suspension following sexual assault allegations. Fields has been fired and is under criminal investigation for the Flock searches.",
-      "source_url": "https://www.yahoo.com/news/us/articles/summit-county-sheriff-investigate-davon-182151823.html",
-      "outcomes": [
-        "fired"
-      ],
-      "outcome_matches": [
-        "fired"
-      ],
-      "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
       "id": "ohio-columbus-262239",
       "ij_source_id": "262239",
       "title": "Columbus, OH - September 2026",
@@ -290,38 +390,6 @@
       "verified": false
     },
     {
-      "id": "north-carolina-franklin-county-262233",
-      "ij_source_id": "262233",
-      "title": "Franklin County, NC - September 2026",
-      "location": {
-        "city": "Franklin County",
-        "state": "north-carolina",
-        "state_name": "North Carolina"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-25"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Detective Janet Leonard was fired for allegedly using Flock cameras to “track the every movement of a single private citizen,” according to the sheriff.",
-      "source_url": "https://www.heraldsun.com/news/local/crime/article317381051.html",
-      "outcomes": [
-        "fired"
-      ],
-      "outcome_matches": [
-        "fired"
-      ],
-      "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
-      "first_seen_at": "2026-09-28T19:54:32.240Z",
-      "last_seen_at": "2026-09-28T19:54:32.240Z",
-      "status": "active",
-      "verified": false
-    },
-    {
       "id": "illinois-whiteside-county-262262",
       "ij_source_id": "262262",
       "title": "Whiteside County, Illinois - September 2026",
@@ -348,6 +416,38 @@
         "placed on leave"
       ],
       "content_hash": "sha256:b8d88de3ede9f954bd88929496572a7e75cf9f11f771f69a8eddf219ec0e2e93",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "north-carolina-franklin-county-262233",
+      "ij_source_id": "262233",
+      "title": "Franklin County, NC - September 2026",
+      "location": {
+        "city": "Franklin County",
+        "state": "north-carolina",
+        "state_name": "North Carolina"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Detective Janet Leonard was fired for allegedly using Flock cameras to “track the every movement of a single private citizen,” according to the sheriff.",
+      "source_url": "https://www.heraldsun.com/news/local/crime/article317381051.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
@@ -4620,6 +4720,36 @@
       "verified": false
     },
     {
+      "id": "arkansas-little-rock-262601",
+      "ij_source_id": "262601",
+      "title": "Little Rock, AR - May 2026",
+      "location": {
+        "city": "Little Rock",
+        "state": "arkansas",
+        "state_name": "Arkansas"
+      },
+      "date": {
+        "text": "May 2026",
+        "iso": "2026-05-16"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "A Little Rock Police Department audit found that an unnamed officer searched for the same plates 28 times over the course of 10 days, which it characterized as “misuse.”",
+      "source_url": "https://katv.com/news/local/lrpd-audit-finds-officer-misused-flock-system-department-withholds-response-records",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:8fbb4cb783a484a8fdacc87756b6e3dc574fa529647421d9d46d9416967602ce",
+      "first_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "texas-pasadena-259854",
       "ij_source_id": "259854",
       "title": "Pasadena, TX - May 2026",
@@ -4906,6 +5036,38 @@
       "content_hash": "sha256:c4c82fcde57487bc2356ef093baabc4f1e3cbc42e37f93e268de580f11470dbb",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "indiana-kokomo-262628",
+      "ij_source_id": "262628",
+      "title": "Kokomo, IN - February 2026",
+      "location": {
+        "city": "Kokomo",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "February 2026",
+        "iso": "2026-02-19"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Kokomo officer Jeffrey Bornes Jr. was charged with a felony and two misdemeanors for allegedly using the Flock system monitor the location of his “then-current” spouse.",
+      "source_url": "https://fox59.com/news/prosecutor-kokomo-police-officer-charged-with-misuse-of-flock-cameras-to-track-spouse/",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:efc555b613c55abdaa18a765d9aa618827e1417dc57f3edd864e9bc0ce7d45d1",
+      "first_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
       "status": "active",
       "verified": false
     },
@@ -6192,22 +6354,24 @@
         "text": "July 2025",
         "iso": "2025-07-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Lieutenant Jeremy Harrison was fired from the agency after using Flock cameras to track the location of a female officer.",
-      "source_url": "https://patch.com/illinois/joliet/lt-jeremy-harrison-hopes-win-termination-hearing-joliet-police-fire-board-next-week",
+      "description": "Lieutenant Jeremy Harrison was fired from the agency and criminally charged after allegedly using Flock cameras to track the location of a female officer 153 times.",
+      "source_url": "https://patch.com/illinois/joliet/2-criminal-charges-joliet-police-lt-jeremy-harrison-already-appealing-his",
       "outcomes": [
-        "fired"
+        "fired",
+        "charged"
       ],
       "outcome_matches": [
-        "fired"
+        "fired",
+        "charged"
       ],
-      "content_hash": "sha256:b50122a832f2dd21db723ceb62e71c16f16139472adee61e2b6f50736406572f",
+      "content_hash": "sha256:3aaa4c4c739ba67afaf965e0179a0f44d60e8ff25532007742c5c07476a425d9",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-10-09T18:35:13.479Z",
       "status": "active",
       "verified": false
     },
