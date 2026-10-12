@@ -1,9 +1,9 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-09T18:35:13.490Z",
+  "generated_at": "2026-10-12T21:28:20.555Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 271,
+  "count": 273,
   "incidents": [
     {
       "id": "georgia-athens-262627",
@@ -3442,6 +3442,38 @@
       "verified": false
     },
     {
+      "id": "north-carolina-harnett-county-262686",
+      "ij_source_id": "262686",
+      "title": "Harnett County, NC - July 2026",
+      "location": {
+        "city": "Harnett County",
+        "state": "north-carolina",
+        "state_name": "North Carolina"
+      },
+      "date": {
+        "text": "July 2026",
+        "iso": "2026-07-15"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Harnett County detective Jayne Holland was fired and referred for criminal investigation after allegedly using the Flock system to track her boyfriend’s estranged wife.",
+      "source_url": "https://www.mydailyrecord.com/news/detective-dismissed-amid-sbi-investigation-into-flock-use/article_91ca9f0c-f901-4eb9-a8d8-c7d3041980b9.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:80ae1e72d3f35dcb30ff0669330c703ec4ac1c819e729a1e193efa462168de77",
+      "first_seen_at": "2026-10-12T21:28:20.538Z",
+      "last_seen_at": "2026-10-12T21:28:20.538Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "georgia-albany-259810",
       "ij_source_id": "259810",
       "title": "Albany, GA - July 2026",
@@ -4732,20 +4764,22 @@
         "text": "May 2026",
         "iso": "2026-05-16"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "A Little Rock Police Department audit found that an unnamed officer searched for the same plates 28 times over the course of 10 days, which it characterized as “misuse.”",
-      "source_url": "https://katv.com/news/local/lrpd-audit-finds-officer-misused-flock-system-department-withholds-response-records",
+      "description": "A Little Rock Police Department officer was fired after an audit found that he searched his ex-girlfriend’s plates 28 times over the course of 10 days,.",
+      "source_url": "https://www.arkansasonline.com/news/2026/oct/09/documents-show-fired-little-rock-police-officer/",
       "outcomes": [
-        "no_action_reported"
+        "fired"
       ],
-      "outcome_matches": [],
-      "content_hash": "sha256:8fbb4cb783a484a8fdacc87756b6e3dc574fa529647421d9d46d9416967602ce",
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:bde3268167ef19a25379b6b25338d51583272da6be1fab86eb161cb0514ffbe3",
       "first_seen_at": "2026-10-09T18:35:13.479Z",
-      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-12T21:28:20.538Z",
       "status": "active",
       "verified": false
     },
@@ -5036,6 +5070,36 @@
       "content_hash": "sha256:c4c82fcde57487bc2356ef093baabc4f1e3cbc42e37f93e268de580f11470dbb",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
       "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "virginia-smithfield-262733",
+      "ij_source_id": "262733",
+      "title": "Smithfield, VA - March 2026",
+      "location": {
+        "city": "Smithfield",
+        "state": "virginia",
+        "state_name": "Virginia"
+      },
+      "date": {
+        "text": "March 2026",
+        "iso": "2026-03-01"
+      },
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
+      "manufacturer": "",
+      "manufacturer_name": "",
+      "is_flock": false,
+      "description": "Smithfield police share Flock data with the FBI in violation of a Virginia law that bars sharing of data with federal agencies without a warrant or subpoena.",
+      "source_url": "https://www.pilotonline.com/2026/10/11/smithfield-police-shared-flock-data-with-fbi-after-odu-shooting-that-violated-state-law/?utm_campaign=mrf-facebook-virginianpilot&amp;utm_source=facebook&amp;utm_medium=social&amp;mrfcid=202610116acbf533c8c31162515d4474&amp;fbclid=IwY2xjawU5v7BleHRuA2FlbQIxMQBwZG9mBWJyaWQRMXpzdkQ2NWFoTnlEY2dZTnVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEelPzNCDTlFHOFWByqMMUpRQ9PKlpMigZsGkLhAkah8r6OnH7VroU_yMlo3hM_aem_djxp_8IgI4B5zQnk97qvNw",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:cf289f880eddcac949ba9906a9df084780bebe004509ed562b6bd14eb05a51ed",
+      "first_seen_at": "2026-10-12T21:28:20.538Z",
+      "last_seen_at": "2026-10-12T21:28:20.538Z",
       "status": "active",
       "verified": false
     },
