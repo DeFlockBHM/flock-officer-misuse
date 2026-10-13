@@ -1,10 +1,44 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-12T21:28:20.555Z",
+  "generated_at": "2026-10-13T19:38:43.987Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 273,
+  "count": 276,
   "incidents": [
+    {
+      "id": "georgia-baldwin-county-262746",
+      "ij_source_id": "262746",
+      "title": "Baldwin County, GA - October 2026",
+      "location": {
+        "city": "Baldwin County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-12"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sheriff’s Office training officer Kevin Steinmeyer was fired and criminally charged for unspecified misuse of the Flock system.",
+      "source_url": "https://wgxa.tv/news/local/veteran-training-officer-among-two-arrested-in-baldwin-county-flock-camera-misuse-case-kevin-steinmeyer-former-road-patrol-deputy-daniel-edward-l-peavey-sheriff-bill-massee-alp-license-plate-reader-ai-scanning-system-law-enforcement-violaton-of-oath-by",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:38318e0cea05e468982ad0d1b90aa71694749793dd5d2fd31ed818b5ae27ab6e",
+      "first_seen_at": "2026-10-13T19:38:43.970Z",
+      "last_seen_at": "2026-10-13T19:38:43.970Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "georgia-athens-262627",
       "ij_source_id": "262627",
@@ -36,6 +70,38 @@
       "content_hash": "sha256:3634d0a8e6a573f961dbb66cab3d4425e0b16c7af3781e3338a39e23407030d0",
       "first_seen_at": "2026-10-09T18:35:13.479Z",
       "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-baldwin-county-262781",
+      "ij_source_id": "262781",
+      "title": "Baldwin County, GA - October 2026",
+      "location": {
+        "city": "Baldwin County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-06"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Former Baldwin County deputy Daniel Peavey was criminally charged for unspecified misuse of the Flock system.",
+      "source_url": "https://wgxa.tv/news/local/veteran-training-officer-among-two-arrested-in-baldwin-county-flock-camera-misuse-case-kevin-steinmeyer-former-road-patrol-deputy-daniel-edward-l-peavey-sheriff-bill-massee-alp-license-plate-reader-ai-scanning-system-law-enforcement-violaton-of-oath-by",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:9e842625ba0207b1fc5cf148594b3f62bf8656db997c82a98ba72b3cb78aee8d",
+      "first_seen_at": "2026-10-13T19:38:43.970Z",
+      "last_seen_at": "2026-10-13T19:38:43.970Z",
       "status": "active",
       "verified": false
     },
@@ -136,6 +202,38 @@
       "verified": false
     },
     {
+      "id": "new-york-cheektowaga-262412",
+      "ij_source_id": "262412",
+      "title": "Cheektowaga, NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Anthony Filipski was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:227248f3746694e070fd1f510119cfb74dd84dcf347cd73c75523788c417741a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "ohio-akron-262414",
       "ij_source_id": "262414",
       "title": "Akron, OH - September 2026",
@@ -200,8 +298,8 @@
       "verified": false
     },
     {
-      "id": "new-york-cheektowaga-262412",
-      "ij_source_id": "262412",
+      "id": "new-york-cheektowaga-262411",
+      "ij_source_id": "262411",
       "title": "Cheektowaga, NY - September 2026",
       "location": {
         "city": "Cheektowaga",
@@ -217,7 +315,7 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Cheektowaga dispatcher Anthony Filipski was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "description": "Cheektowaga officer Robert Dombrowski was suspended for allegedly using Flock cameras to track a fellow employee. The alleged abuse happened when Dombrowski was employed as a dispatcher.",
       "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
       "outcomes": [
         "suspended"
@@ -225,39 +323,7 @@
       "outcome_matches": [
         "suspended"
       ],
-      "content_hash": "sha256:227248f3746694e070fd1f510119cfb74dd84dcf347cd73c75523788c417741a",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "florida-pinellas-county-262381",
-      "ij_source_id": "262381",
-      "title": "Pinellas County, FL - September 2026",
-      "location": {
-        "city": "Pinellas County",
-        "state": "florida",
-        "state_name": "Florida"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "stalking",
-      "classification_raw": "Stalking",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Deputy Karl Gwynne was arrested for allegedly using the Flock system to search 300 times for a woman he was interested in dating. His abuse was discovered after reporters with TCPalm noticed unusual patterns in the department’s audit data.",
-      "source_url": "https://www.tampabay28.com/news/region-pinellas/pinellas-sheriff-acknowledges-gaps-in-flock-style-camera-oversight-after-deputys-arrest",
-      "outcomes": [
-        "arrested"
-      ],
-      "outcome_matches": [
-        "arrested"
-      ],
-      "content_hash": "sha256:632ccd5397ed9716a6f7d0c7632b3733a6a7b8efbb64ec8c255b4295e1f717ff",
+      "content_hash": "sha256:0ead45f480f8c647c36a1a423e16f29fd1446bbdc9f4ca459a057ff786433907",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -296,32 +362,32 @@
       "verified": false
     },
     {
-      "id": "new-york-cheektowaga-262411",
-      "ij_source_id": "262411",
-      "title": "Cheektowaga, NY - September 2026",
+      "id": "florida-pinellas-county-262381",
+      "ij_source_id": "262381",
+      "title": "Pinellas County, FL - September 2026",
       "location": {
-        "city": "Cheektowaga",
-        "state": "new-york",
-        "state_name": "New York"
+        "city": "Pinellas County",
+        "state": "florida",
+        "state_name": "Florida"
       },
       "date": {
         "text": "September 2026",
         "iso": "2026-09-30"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Cheektowaga officer Robert Dombrowski was suspended for allegedly using Flock cameras to track a fellow employee. The alleged abuse happened when Dombrowski was employed as a dispatcher.",
-      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "description": "Deputy Karl Gwynne was arrested for allegedly using the Flock system to search 300 times for a woman he was interested in dating. His abuse was discovered after reporters with TCPalm noticed unusual patterns in the department’s audit data.",
+      "source_url": "https://www.tampabay28.com/news/region-pinellas/pinellas-sheriff-acknowledges-gaps-in-flock-style-camera-oversight-after-deputys-arrest",
       "outcomes": [
-        "suspended"
+        "arrested"
       ],
       "outcome_matches": [
-        "suspended"
+        "arrested"
       ],
-      "content_hash": "sha256:0ead45f480f8c647c36a1a423e16f29fd1446bbdc9f4ca459a057ff786433907",
+      "content_hash": "sha256:632ccd5397ed9716a6f7d0c7632b3733a6a7b8efbb64ec8c255b4295e1f717ff",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -390,6 +456,36 @@
       "verified": false
     },
     {
+      "id": "indiana-greenfield-262231",
+      "ij_source_id": "262231",
+      "title": "Greenfield, Indiana - September 2026",
+      "location": {
+        "city": "Greenfield",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
+      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "illinois-whiteside-county-262262",
       "ij_source_id": "262262",
       "title": "Whiteside County, Illinois - September 2026",
@@ -448,36 +544,6 @@
         "fired"
       ],
       "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
-      "first_seen_at": "2026-09-28T19:54:32.240Z",
-      "last_seen_at": "2026-09-28T19:54:32.240Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "indiana-greenfield-262231",
-      "ij_source_id": "262231",
-      "title": "Greenfield, Indiana - September 2026",
-      "location": {
-        "city": "Greenfield",
-        "state": "indiana",
-        "state_name": "Indiana"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-25"
-      },
-      "classification": "stalking",
-      "classification_raw": "Stalking",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
-      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
-      "outcomes": [
-        "no_action_reported"
-      ],
-      "outcome_matches": [],
-      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
@@ -2170,6 +2236,38 @@
       "content_hash": "sha256:a1ea1f1ef321815b7477f151fbd8023bd1365bc44752424a9c674dbf7c36f03f",
       "first_seen_at": "2026-09-14T18:16:13.118Z",
       "last_seen_at": "2026-09-14T18:16:13.118Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "illinois-creve-coeur-261705",
+      "ij_source_id": "261705",
+      "title": "Creve Coeur, IL - August 2026",
+      "location": {
+        "city": "Creve Coeur",
+        "state": "illinois",
+        "state_name": "Illinois"
+      },
+      "date": {
+        "text": "August 2026",
+        "iso": "2026-08-21"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Creve Coeur deputy chief Dan Nelson resigned after allegedly using Flock cameras to stalk the ex-wife of former chief Justin Egan, who also resigned. The ex-wife filed a stalking/no-contact order against Nelson, in addition to an order of protection from Egan.",
+      "source_url": "https://www.pjstar.com/story/news/courts/2026/09/10/former-illinois-police-officers-being-investigated-for-misconduct/91596475007/?gnt-cfr=1&amp;gca-cat=p&amp;gca-uir=false&amp;gca-epti=undefined&amp;gca-ft=0&amp;gca-ds=sophi",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:cd20ee9bde6cd69e4ae6ee15e79dfe8885b28dda79ec4e1c33ef6dbad80f25c9",
+      "first_seen_at": "2026-10-13T19:38:43.970Z",
+      "last_seen_at": "2026-10-13T19:38:43.970Z",
       "status": "active",
       "verified": false
     },
