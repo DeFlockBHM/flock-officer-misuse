@@ -1,10 +1,172 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-13T19:38:43.987Z",
+  "generated_at": "2026-10-17T16:01:59.904Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 276,
+  "count": 281,
   "incidents": [
+    {
+      "id": "ohio-sharonville-262833",
+      "ij_source_id": "262833",
+      "title": "Sharonville, OH - December 2024",
+      "location": {
+        "city": "Sharonville",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "December 2026",
+        "iso": "2026-12-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sharonville police lieutenant Walter Cordes admitted to searching for someone he knew on the Flock system 29 times over a span of several months. He was charged with a felony.",
+      "source_url": "https://www.wlwt.com/article/sharonville-police-lieutenant-indicted-felony-flock-misuse/74123168",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:0a2d4375b3784c79b8e13e64a870dfa3075fb98ab54f76fbce97d9a9e23af8eb",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-richmond-county-262910",
+      "ij_source_id": "262910",
+      "title": "Richmond County, GA - October 2026",
+      "location": {
+        "city": "Richmond County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-15"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Deputy Corey Whitfield was fired and criminally charged for allegedly using Flock cameras for personal reasons.",
+      "source_url": "https://theaugustapress.com/another-rcso-deputy-charged-after-personal-searches-on-flock-camera-system/",
+      "outcomes": [
+        "fired",
+        "charged"
+      ],
+      "outcome_matches": [
+        "fired",
+        "charged"
+      ],
+      "content_hash": "sha256:52b118239ff97134712845a8f5734d10875e7657d653a7292354e4c11dbd9414",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "arkansas-little-rock-262868",
+      "ij_source_id": "262868",
+      "title": "Little Rock, AR - October 2026",
+      "location": {
+        "city": "Little Rock",
+        "state": "arkansas",
+        "state_name": "Arkansas"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-13"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "One of three unnamed Little Rock officers suspended with pay for unspecified misuse of the Flock system.",
+      "source_url": "https://www.arkansasonline.com/news/2026/oct/13/little-rock-police-suspends-three-officers-with/",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:d51427a9493bcc20856e015edb47c12c70682994a3ae128b99cdfb8022afc1cc",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "arkansas-little-rock-262867",
+      "ij_source_id": "262867",
+      "title": "Little Rock, AR - October 2026",
+      "location": {
+        "city": "Little Rock",
+        "state": "arkansas",
+        "state_name": "Arkansas"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-13"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "One of three unnamed Little Rock officers suspended with pay for unspecified misuse of the Flock system.",
+      "source_url": "https://www.arkansasonline.com/news/2026/oct/13/little-rock-police-suspends-three-officers-with/",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:d51427a9493bcc20856e015edb47c12c70682994a3ae128b99cdfb8022afc1cc",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "arkansas-little-rock-262866",
+      "ij_source_id": "262866",
+      "title": "Little Rock, AR - October 2026",
+      "location": {
+        "city": "Little Rock",
+        "state": "arkansas",
+        "state_name": "Arkansas"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-13"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "",
+      "manufacturer_name": "",
+      "is_flock": false,
+      "description": "One of three unnamed Little Rock officers suspended with pay for unspecified misuse of the Flock system.",
+      "source_url": "https://www.arkansasonline.com/news/2026/oct/13/little-rock-police-suspends-three-officers-with/",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:d51427a9493bcc20856e015edb47c12c70682994a3ae128b99cdfb8022afc1cc",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "status": "active",
+      "verified": false
+    },
     {
       "id": "georgia-baldwin-county-262746",
       "ij_source_id": "262746",
@@ -57,7 +219,7 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Athens-Clarke County police officer Tyler Vaugh was fired and criminally charged after allegedly using the Flock system to track the location of an ex-girlfriend.",
+      "description": "Athens-Clarke County police officer Tyler Vaughn was fired and criminally charged after allegedly using the Flock system to track the location of an ex-girlfriend.",
       "source_url": "https://www.wsbtv.com/news/local/clarke-county/north-georgia-officer-terminated-accused-misusing-flock-safety-system-track-ex-girlfriend/6DRWCJN55FGDVJGAGB6WMMVROA/",
       "outcomes": [
         "fired",
@@ -67,9 +229,9 @@
         "fired",
         "charged"
       ],
-      "content_hash": "sha256:3634d0a8e6a573f961dbb66cab3d4425e0b16c7af3781e3338a39e23407030d0",
+      "content_hash": "sha256:a76f51ff8682ad97da4aef98c0ac33ddc2ac7a6c407bd3e2ba37fd663d0dd32a",
       "first_seen_at": "2026-10-09T18:35:13.479Z",
-      "last_seen_at": "2026-10-09T18:35:13.479Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
       "status": "active",
       "verified": false
     },
@@ -234,38 +396,6 @@
       "verified": false
     },
     {
-      "id": "ohio-akron-262414",
-      "ij_source_id": "262414",
-      "title": "Akron, OH - September 2026",
-      "location": {
-        "city": "Akron",
-        "state": "ohio",
-        "state_name": "Ohio"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Akron officer Davon Fields was able to continue searching the Flock network while on leave after fatally shooting a 15-year-old boy, and again while under suspension following sexual assault allegations. Fields has been fired and is under criminal investigation for the Flock searches.",
-      "source_url": "https://www.yahoo.com/news/us/articles/summit-county-sheriff-investigate-davon-182151823.html",
-      "outcomes": [
-        "fired"
-      ],
-      "outcome_matches": [
-        "fired"
-      ],
-      "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
       "id": "new-york-cheektowaga-262413",
       "ij_source_id": "262413",
       "title": "Cheektowaga NY - September 2026",
@@ -292,6 +422,38 @@
         "suspended"
       ],
       "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-akron-262414",
+      "ij_source_id": "262414",
+      "title": "Akron, OH - September 2026",
+      "location": {
+        "city": "Akron",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Akron officer Davon Fields was able to continue searching the Flock network while on leave after fatally shooting a 15-year-old boy, and again while under suspension following sexual assault allegations. Fields has been fired and is under criminal investigation for the Flock searches.",
+      "source_url": "https://www.yahoo.com/news/us/articles/summit-county-sheriff-investigate-davon-182151823.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -456,30 +618,32 @@
       "verified": false
     },
     {
-      "id": "indiana-greenfield-262231",
-      "ij_source_id": "262231",
-      "title": "Greenfield, Indiana - September 2026",
+      "id": "north-carolina-franklin-county-262233",
+      "ij_source_id": "262233",
+      "title": "Franklin County, NC - September 2026",
       "location": {
-        "city": "Greenfield",
-        "state": "indiana",
-        "state_name": "Indiana"
+        "city": "Franklin County",
+        "state": "north-carolina",
+        "state_name": "North Carolina"
       },
       "date": {
         "text": "September 2026",
         "iso": "2026-09-25"
       },
-      "classification": "stalking",
-      "classification_raw": "Stalking",
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
-      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
+      "description": "Detective Janet Leonard was fired for allegedly using Flock cameras to “track the every movement of a single private citizen,” according to the sheriff.",
+      "source_url": "https://www.heraldsun.com/news/local/crime/article317381051.html",
       "outcomes": [
-        "no_action_reported"
+        "fired"
       ],
-      "outcome_matches": [],
-      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
@@ -518,32 +682,30 @@
       "verified": false
     },
     {
-      "id": "north-carolina-franklin-county-262233",
-      "ij_source_id": "262233",
-      "title": "Franklin County, NC - September 2026",
+      "id": "indiana-greenfield-262231",
+      "ij_source_id": "262231",
+      "title": "Greenfield, Indiana - September 2026",
       "location": {
-        "city": "Franklin County",
-        "state": "north-carolina",
-        "state_name": "North Carolina"
+        "city": "Greenfield",
+        "state": "indiana",
+        "state_name": "Indiana"
       },
       "date": {
         "text": "September 2026",
         "iso": "2026-09-25"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Detective Janet Leonard was fired for allegedly using Flock cameras to “track the every movement of a single private citizen,” according to the sheriff.",
-      "source_url": "https://www.heraldsun.com/news/local/crime/article317381051.html",
+      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
+      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
       "outcomes": [
-        "fired"
+        "no_action_reported"
       ],
-      "outcome_matches": [
-        "fired"
-      ],
-      "content_hash": "sha256:7f674eebf07407c7915dde5058a7420565f772bc22d9cda19eb35eb3a21523bb",
+      "outcome_matches": [],
+      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
@@ -4244,22 +4406,22 @@
         "text": "July 2026",
         "iso": "2026-07-01"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "other_misuse",
+      "classification_raw": "Other Misuse",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "One of four unnamed officers put on leave and referred for a criminal investigation over improper Flock use, including searches involving acquaintances and family members.",
-      "source_url": "https://www.wjcl.com/article/savannah-police-flock-system-misuse-investigation/73321620",
+      "description": "Officer Amber Harpe was fired after giving her husband, an ICE officer, access to the police department’s Flock system. The husband claimed he was searching for ICE targets.",
+      "source_url": "https://www.wjcl.com/article/savannah-police-officer-ice-agent-flock-access/74135816",
       "outcomes": [
-        "administrative_leave"
+        "fired"
       ],
       "outcome_matches": [
-        "put on leave"
+        "fired"
       ],
-      "content_hash": "sha256:438ee0b0693b524a8443b7f328366ca666810b54e17917619cabbe4d178c1048",
+      "content_hash": "sha256:879b2b9109aadaf3799ff6905da56971ed8111a81dca661e020778b5dcb43fed",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
       "status": "active",
       "verified": false
     },
@@ -4867,7 +5029,7 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "A Little Rock Police Department officer was fired after an audit found that he searched his ex-girlfriend’s plates 28 times over the course of 10 days,.",
+      "description": "Little Rock officer Kyle Dishman was fired after an audit found that he searched his ex-girlfriend’s plates 28 times over the course of 10 days.",
       "source_url": "https://www.arkansasonline.com/news/2026/oct/09/documents-show-fired-little-rock-police-officer/",
       "outcomes": [
         "fired"
@@ -4875,9 +5037,9 @@
       "outcome_matches": [
         "fired"
       ],
-      "content_hash": "sha256:bde3268167ef19a25379b6b25338d51583272da6be1fab86eb161cb0514ffbe3",
+      "content_hash": "sha256:e5f54e02d32d0170da01d47b6e4ea40a88a67b73b423858e4b0c9920c311721a",
       "first_seen_at": "2026-10-09T18:35:13.479Z",
-      "last_seen_at": "2026-10-12T21:28:20.538Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
       "status": "active",
       "verified": false
     },
