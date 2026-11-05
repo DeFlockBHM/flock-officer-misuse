@@ -1,39 +1,137 @@
 {
   "schema_version": 3,
-  "generated_at": "2026-10-22T17:54:29.326Z",
+  "generated_at": "2026-11-05T20:23:49.309Z",
   "source_url": "https://ij.org/the-ij-database-of-alpr-abuse/",
   "source_name": "Institute for Justice - IJ Database of ALPR Abuse",
-  "count": 293,
+  "count": 301,
   "incidents": [
     {
-      "id": "ohio-sharonville-262833",
-      "ij_source_id": "262833",
-      "title": "Sharonville, OH - December 2024",
+      "id": "florida-indian-river-county-263433",
+      "ij_source_id": "263433",
+      "title": "Indian River County, FL - November 2026",
       "location": {
-        "city": "Sharonville",
+        "city": "Indian River County",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "November 2026",
+        "iso": "2026-11-02"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Former Indian River County deputy Samuel Earman, previously arrested for stalking, was charged with additional crimes after investigators learned he used the Flock system to look up multiple women dozens of times. Between 10 and 12 women came forward with complaints about Earman’s behavior.",
+      "source_url": "https://cbs12.com/news/crime/sheriff-flowers-to-hold-press-conference-on-former-deputies-flock-misuse-arrests-indian-river-county-indian-river-county-sheriffs-office-ircso-vero-beach-sheriff-eric-flowers-john-finnegan-samuel-marcus-earman-former-deputies-arrested-deputy",
+      "outcomes": [
+        "arrested",
+        "charged"
+      ],
+      "outcome_matches": [
+        "arrested",
+        "charged"
+      ],
+      "content_hash": "sha256:c6c4cddc7a61b7db938111964014b4d23afc6dc4c424371e95fb94518333a10d",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "ohio-franklin-county-263420",
+      "ij_source_id": "263420",
+      "title": "Franklin County, OH - October 2026",
+      "location": {
+        "city": "Franklin County",
         "state": "ohio",
         "state_name": "Ohio"
       },
       "date": {
-        "text": "December 2026",
-        "iso": "2026-12-01"
+        "text": "November 2026",
+        "iso": "2026-11-02"
       },
       "classification": "non_law_enforcement_use",
       "classification_raw": "Non Law-Enforcement Use",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Sharonville police lieutenant Walter Cordes admitted to searching for someone he knew on the Flock system 29 times over a span of several months. He was charged with a felony.",
-      "source_url": "https://www.wlwt.com/article/sharonville-police-lieutenant-indicted-felony-flock-misuse/74123168",
+      "description": "Deputy Robert Tischler received a 30-day unpaid suspension and was reassigned after using Flock cameras in a manner “inconsistent with the deputy’s authorized duties and responsibilities.”",
+      "source_url": "https://www.10tv.com/article/news/local/franklin-county-deputy-unpaid-suspension-flock-camera-audit/530-661743f9-f31d-41d4-ae17-48db8f5a7820",
       "outcomes": [
-        "charged"
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:041e597e9647bc15262d712917591eb2c1181234590f19145545008719b29dfa",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "georgia-barrow-county-263414",
+      "ij_source_id": "263414",
+      "title": "Barrow County, GA - October 2026",
+      "location": {
+        "city": "Barrow County",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Barrow County Sheriff’s Office investigator Stephanie Howard resigned and was arrested for allegedly misusing the Flock system over a period of six months.",
+      "source_url": "https://www.fox5atlanta.com/news/barrow-county-investigator-arrested-over-alleged-flock-camera-misuse",
+      "outcomes": [
+        "resigned",
+        "arrested"
       ],
       "outcome_matches": [
-        "charged"
+        "resigned",
+        "arrested"
       ],
-      "content_hash": "sha256:0a2d4375b3784c79b8e13e64a870dfa3075fb98ab54f76fbce97d9a9e23af8eb",
-      "first_seen_at": "2026-10-17T16:01:59.891Z",
-      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "content_hash": "sha256:7171b0c6dcf4ed6b1ab0635ac7c639befb082eceb539a79485c5f295561e0dd4",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "california-fresno-263180",
+      "ij_source_id": "263180",
+      "title": "Fresno, CA - October 2026",
+      "location": {
+        "city": "Fresno",
+        "state": "california",
+        "state_name": "California"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-23"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Fresno police officer was placed on leave after allegedly abusing the Flock system and other sensitive databases.",
+      "source_url": "https://amp.fresnobee.com/news/local/crime/article317739395.html",
+      "outcomes": [
+        "administrative_leave"
+      ],
+      "outcome_matches": [
+        "placed on leave"
+      ],
+      "content_hash": "sha256:919ce28321196950cf60e6cbf83255fb1456800283bff43eb7cf19ebba6010d3",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
       "status": "active",
       "verified": false
     },
@@ -64,38 +162,6 @@
         "fired"
       ],
       "content_hash": "sha256:4bc2743afe9725e330de8b8156c6d035526aff1e1fc2696d9bb65a0ec13e4c6c",
-      "first_seen_at": "2026-10-22T17:54:29.317Z",
-      "last_seen_at": "2026-10-22T17:54:29.317Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "illinois-waukegan-263097",
-      "ij_source_id": "263097",
-      "title": "Waukegan, IL - October 2026",
-      "location": {
-        "city": "Waukegan",
-        "state": "illinois",
-        "state_name": "Illinois"
-      },
-      "date": {
-        "text": "October 2026",
-        "iso": "2026-10-21"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "unspecified",
-      "manufacturer_name": "Unspecified",
-      "is_flock": false,
-      "description": "Officer Oscar Magpali was charged with five felonies for allegedly using license plate readers to track coworkers and other people associated with them.",
-      "source_url": "https://www.lakemchenryscanner.com/2026/10/20/waukegan-police-officer-charged-after-allegedly-using-license-plate-readers-other-databases-to-unlawfully-track-people/",
-      "outcomes": [
-        "charged"
-      ],
-      "outcome_matches": [
-        "charged"
-      ],
-      "content_hash": "sha256:64c7fd86de2d97ced9dcf42231a6c7871b1173e873d1178f4e25fb630a909923",
       "first_seen_at": "2026-10-22T17:54:29.317Z",
       "last_seen_at": "2026-10-22T17:54:29.317Z",
       "status": "active",
@@ -134,13 +200,45 @@
       "verified": false
     },
     {
-      "id": "illinois-warrenville-262982",
-      "ij_source_id": "262982",
-      "title": "Warrenville, IL - October 2026",
+      "id": "illinois-waukegan-263097",
+      "ij_source_id": "263097",
+      "title": "Waukegan, IL - October 2026",
       "location": {
-        "city": "Warrenville",
+        "city": "Waukegan",
         "state": "illinois",
         "state_name": "Illinois"
+      },
+      "date": {
+        "text": "October 2026",
+        "iso": "2026-10-21"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "unspecified",
+      "manufacturer_name": "Unspecified",
+      "is_flock": false,
+      "description": "Officer Oscar Magpali was charged with five felonies for allegedly using license plate readers to track coworkers and other people associated with them.",
+      "source_url": "https://www.lakemchenryscanner.com/2026/10/20/waukegan-police-officer-charged-after-allegedly-using-license-plate-readers-other-databases-to-unlawfully-track-people/",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:64c7fd86de2d97ced9dcf42231a6c7871b1173e873d1178f4e25fb630a909923",
+      "first_seen_at": "2026-10-22T17:54:29.317Z",
+      "last_seen_at": "2026-10-22T17:54:29.317Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "texas-brenham-262935",
+      "ij_source_id": "262935",
+      "title": "Brenham, TX - October 2026",
+      "location": {
+        "city": "Brenham",
+        "state": "texas",
+        "state_name": "Texas"
       },
       "date": {
         "text": "October 2026",
@@ -148,16 +246,18 @@
       },
       "classification": "non_law_enforcement_use",
       "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "An unnamed Warrenville officer was put under criminal investigation for alleged misuse of the Flock system. At the time the investigation was announced, the officer was already on leave for another unrelated issue.",
-      "source_url": "https://wheatonsentinel.com/articles/warrenville-officer-investigated-for-unauthorized-flock-camera-use-mvc7ycvc",
+      "manufacturer": "vigilant",
+      "manufacturer_name": "Vigilant",
+      "is_flock": false,
+      "description": "Brenham officer Gabriel Duran was fired and put under criminal investigation for allegedly misusing the license plate reader system.",
+      "source_url": "https://www.kbtx.com/2026/10/16/brenham-officer-fired-over-license-plate-reader-misuse/",
       "outcomes": [
-        "no_action_reported"
+        "fired"
       ],
-      "outcome_matches": [],
-      "content_hash": "sha256:f0300e100106b934a9dd15e906aec0efbf198fc99b7cc4ac8f04119402140694",
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:97d27b7962875f7095c845200a0f432b8e17ce5fa61591ed6e3e0dd2a322954d",
       "first_seen_at": "2026-10-22T17:54:29.317Z",
       "last_seen_at": "2026-10-22T17:54:29.317Z",
       "status": "active",
@@ -198,13 +298,13 @@
       "verified": false
     },
     {
-      "id": "texas-brenham-262935",
-      "ij_source_id": "262935",
-      "title": "Brenham, TX - October 2026",
+      "id": "illinois-warrenville-262982",
+      "ij_source_id": "262982",
+      "title": "Warrenville, IL - October 2026",
       "location": {
-        "city": "Brenham",
-        "state": "texas",
-        "state_name": "Texas"
+        "city": "Warrenville",
+        "state": "illinois",
+        "state_name": "Illinois"
       },
       "date": {
         "text": "October 2026",
@@ -212,18 +312,16 @@
       },
       "classification": "non_law_enforcement_use",
       "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "vigilant",
-      "manufacturer_name": "Vigilant",
-      "is_flock": false,
-      "description": "Brenham officer Gabriel Duran was fired and put under criminal investigation for allegedly misusing the license plate reader system.",
-      "source_url": "https://www.kbtx.com/2026/10/16/brenham-officer-fired-over-license-plate-reader-misuse/",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Warrenville officer was put under criminal investigation for alleged misuse of the Flock system. At the time the investigation was announced, the officer was already on leave for another unrelated issue.",
+      "source_url": "https://wheatonsentinel.com/articles/warrenville-officer-investigated-for-unauthorized-flock-camera-use-mvc7ycvc",
       "outcomes": [
-        "fired"
+        "no_action_reported"
       ],
-      "outcome_matches": [
-        "fired"
-      ],
-      "content_hash": "sha256:97d27b7962875f7095c845200a0f432b8e17ce5fa61591ed6e3e0dd2a322954d",
+      "outcome_matches": [],
+      "content_hash": "sha256:f0300e100106b934a9dd15e906aec0efbf198fc99b7cc4ac8f04119402140694",
       "first_seen_at": "2026-10-22T17:54:29.317Z",
       "last_seen_at": "2026-10-22T17:54:29.317Z",
       "status": "active",
@@ -296,13 +394,13 @@
       "verified": false
     },
     {
-      "id": "georgia-milton-263140",
-      "ij_source_id": "263140",
-      "title": "Milton, GA - October 2026",
+      "id": "arkansas-little-rock-262868",
+      "ij_source_id": "262868",
+      "title": "Little Rock, AR - October 2026",
       "location": {
-        "city": "Milton",
-        "state": "georgia",
-        "state_name": "Georgia"
+        "city": "Little Rock",
+        "state": "arkansas",
+        "state_name": "Arkansas"
       },
       "date": {
         "text": "October 2026",
@@ -313,19 +411,17 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Milton officer Khalil Bouzaine resigned while under investigation for Flock misuse after USA Today reporters flagged an unusual pattern of searches.",
-      "source_url": "https://www.readroundabout.com/news/milton-officer-resigned-under-investigation-camera-files",
+      "description": "One of three unnamed Little Rock officers suspended with pay for unspecified misuse of the Flock system.",
+      "source_url": "https://www.arkansasonline.com/news/2026/oct/13/little-rock-police-suspends-three-officers-with/",
       "outcomes": [
-        "resigned",
-        "under_investigation"
+        "suspended"
       ],
       "outcome_matches": [
-        "resigned",
-        "under investigation"
+        "suspended"
       ],
-      "content_hash": "sha256:00dd0b20e16d3aa1cd1721432f00e85f40d98e4be13e00ebf9750f4f9bbc1e9d",
-      "first_seen_at": "2026-10-22T17:54:29.317Z",
-      "last_seen_at": "2026-10-22T17:54:29.317Z",
+      "content_hash": "sha256:d51427a9493bcc20856e015edb47c12c70682994a3ae128b99cdfb8022afc1cc",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-10-17T16:01:59.891Z",
       "status": "active",
       "verified": false
     },
@@ -394,13 +490,13 @@
       "verified": false
     },
     {
-      "id": "arkansas-little-rock-262868",
-      "ij_source_id": "262868",
-      "title": "Little Rock, AR - October 2026",
+      "id": "georgia-milton-263140",
+      "ij_source_id": "263140",
+      "title": "Milton, GA - October 2026",
       "location": {
-        "city": "Little Rock",
-        "state": "arkansas",
-        "state_name": "Arkansas"
+        "city": "Milton",
+        "state": "georgia",
+        "state_name": "Georgia"
       },
       "date": {
         "text": "October 2026",
@@ -411,17 +507,19 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "One of three unnamed Little Rock officers suspended with pay for unspecified misuse of the Flock system.",
-      "source_url": "https://www.arkansasonline.com/news/2026/oct/13/little-rock-police-suspends-three-officers-with/",
+      "description": "Milton officer Khalil Bouzaine resigned while under investigation for Flock misuse after USA Today reporters flagged an unusual pattern of searches.",
+      "source_url": "https://www.readroundabout.com/news/milton-officer-resigned-under-investigation-camera-files",
       "outcomes": [
-        "suspended"
+        "resigned",
+        "under_investigation"
       ],
       "outcome_matches": [
-        "suspended"
+        "resigned",
+        "under investigation"
       ],
-      "content_hash": "sha256:d51427a9493bcc20856e015edb47c12c70682994a3ae128b99cdfb8022afc1cc",
-      "first_seen_at": "2026-10-17T16:01:59.891Z",
-      "last_seen_at": "2026-10-17T16:01:59.891Z",
+      "content_hash": "sha256:00dd0b20e16d3aa1cd1721432f00e85f40d98e4be13e00ebf9750f4f9bbc1e9d",
+      "first_seen_at": "2026-10-22T17:54:29.317Z",
+      "last_seen_at": "2026-10-22T17:54:29.317Z",
       "status": "active",
       "verified": false
     },
@@ -622,13 +720,13 @@
       "verified": false
     },
     {
-      "id": "new-york-cheektowaga-262413",
-      "ij_source_id": "262413",
-      "title": "Cheektowaga NY - September 2026",
+      "id": "virginia-james-city-county-262382",
+      "ij_source_id": "262382",
+      "title": "James City County, VA - September 2026",
       "location": {
-        "city": "Cheektowaga",
-        "state": "new-york",
-        "state_name": "New York"
+        "city": "James City County",
+        "state": "virginia",
+        "state_name": "Virginia"
       },
       "date": {
         "text": "September 2026",
@@ -636,18 +734,50 @@
       },
       "classification": "non_law_enforcement_use",
       "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "unspecified",
+      "manufacturer_name": "Unspecified",
+      "is_flock": false,
+      "description": "Androu A. Eskanda was charged with eight felonies and five misdemeanors for allegedly using an ALPR system for non-law enforcement purposes.",
+      "source_url": "https://www.wavy.com/news/crime/former-james-city-county-officer-faces-charges-following-criminal-investigation/",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:5b862b2bc6c039c8c5bd0b90047c93f47cd0b9059a5a4f7d5017be3ffbcf8941",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "florida-pinellas-county-262381",
+      "ij_source_id": "262381",
+      "title": "Pinellas County, FL - September 2026",
+      "location": {
+        "city": "Pinellas County",
+        "state": "florida",
+        "state_name": "Florida"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Cheektowaga dispatcher Lauren Seibr was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
-      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "description": "Deputy Karl Gwynne was arrested for allegedly using the Flock system to search 300 times for a woman he was interested in dating. His abuse was discovered after reporters with TCPalm noticed unusual patterns in the department’s audit data.",
+      "source_url": "https://www.tampabay28.com/news/region-pinellas/pinellas-sheriff-acknowledges-gaps-in-flock-style-camera-oversight-after-deputys-arrest",
       "outcomes": [
-        "suspended"
+        "arrested"
       ],
       "outcome_matches": [
-        "suspended"
+        "arrested"
       ],
-      "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
+      "content_hash": "sha256:632ccd5397ed9716a6f7d0c7632b3733a6a7b8efbb64ec8c255b4295e1f717ff",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -680,6 +810,38 @@
         "fired"
       ],
       "content_hash": "sha256:5d826cf3827b7b7d05b50036a96af457e8be33af0be63d181bf4e7bb2f783c4a",
+      "first_seen_at": "2026-10-01T18:38:07.471Z",
+      "last_seen_at": "2026-10-01T18:38:07.471Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "new-york-cheektowaga-262413",
+      "ij_source_id": "262413",
+      "title": "Cheektowaga NY - September 2026",
+      "location": {
+        "city": "Cheektowaga",
+        "state": "new-york",
+        "state_name": "New York"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-30"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Cheektowaga dispatcher Lauren Seibr was suspended for allegedly using Flock cameras to track a fellow employee without their knowledge.",
+      "source_url": "https://www.wkbw.com/news/i-team/cheektowaga-police-officer-dispatchers-accused-of-misusing-flock-cameras-to-track-fellow-employee",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:f5660337e0acc692bf00d52ff5f87a736c9eb696651855428f88bb41b7257ebb",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -744,70 +906,6 @@
         "suspended"
       ],
       "content_hash": "sha256:0ead45f480f8c647c36a1a423e16f29fd1446bbdc9f4ca459a057ff786433907",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "virginia-james-city-county-262382",
-      "ij_source_id": "262382",
-      "title": "James City County, VA - September 2026",
-      "location": {
-        "city": "James City County",
-        "state": "virginia",
-        "state_name": "Virginia"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
-      "manufacturer": "unspecified",
-      "manufacturer_name": "Unspecified",
-      "is_flock": false,
-      "description": "Androu A. Eskanda was charged with eight felonies and five misdemeanors for allegedly using an ALPR system for non-law enforcement purposes.",
-      "source_url": "https://www.wavy.com/news/crime/former-james-city-county-officer-faces-charges-following-criminal-investigation/",
-      "outcomes": [
-        "charged"
-      ],
-      "outcome_matches": [
-        "charged"
-      ],
-      "content_hash": "sha256:5b862b2bc6c039c8c5bd0b90047c93f47cd0b9059a5a4f7d5017be3ffbcf8941",
-      "first_seen_at": "2026-10-01T18:38:07.471Z",
-      "last_seen_at": "2026-10-01T18:38:07.471Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "florida-pinellas-county-262381",
-      "ij_source_id": "262381",
-      "title": "Pinellas County, FL - September 2026",
-      "location": {
-        "city": "Pinellas County",
-        "state": "florida",
-        "state_name": "Florida"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-30"
-      },
-      "classification": "stalking",
-      "classification_raw": "Stalking",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Deputy Karl Gwynne was arrested for allegedly using the Flock system to search 300 times for a woman he was interested in dating. His abuse was discovered after reporters with TCPalm noticed unusual patterns in the department’s audit data.",
-      "source_url": "https://www.tampabay28.com/news/region-pinellas/pinellas-sheriff-acknowledges-gaps-in-flock-style-camera-oversight-after-deputys-arrest",
-      "outcomes": [
-        "arrested"
-      ],
-      "outcome_matches": [
-        "arrested"
-      ],
-      "content_hash": "sha256:632ccd5397ed9716a6f7d0c7632b3733a6a7b8efbb64ec8c255b4295e1f717ff",
       "first_seen_at": "2026-10-01T18:38:07.471Z",
       "last_seen_at": "2026-10-01T18:38:07.471Z",
       "status": "active",
@@ -908,6 +1006,36 @@
       "verified": false
     },
     {
+      "id": "indiana-greenfield-262231",
+      "ij_source_id": "262231",
+      "title": "Greenfield, Indiana - September 2026",
+      "location": {
+        "city": "Greenfield",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-25"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
+      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
+      "outcomes": [
+        "no_action_reported"
+      ],
+      "outcome_matches": [],
+      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
+      "first_seen_at": "2026-09-28T19:54:32.240Z",
+      "last_seen_at": "2026-09-28T19:54:32.240Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "illinois-whiteside-county-262262",
       "ij_source_id": "262262",
       "title": "Whiteside County, Illinois - September 2026",
@@ -934,36 +1062,6 @@
         "placed on leave"
       ],
       "content_hash": "sha256:b8d88de3ede9f954bd88929496572a7e75cf9f11f771f69a8eddf219ec0e2e93",
-      "first_seen_at": "2026-09-28T19:54:32.240Z",
-      "last_seen_at": "2026-09-28T19:54:32.240Z",
-      "status": "active",
-      "verified": false
-    },
-    {
-      "id": "indiana-greenfield-262231",
-      "ij_source_id": "262231",
-      "title": "Greenfield, Indiana - September 2026",
-      "location": {
-        "city": "Greenfield",
-        "state": "indiana",
-        "state_name": "Indiana"
-      },
-      "date": {
-        "text": "September 2026",
-        "iso": "2026-09-25"
-      },
-      "classification": "stalking",
-      "classification_raw": "Stalking",
-      "manufacturer": "flock",
-      "manufacturer_name": "Flock",
-      "is_flock": true,
-      "description": "Sheriff’s deputy James Heneghan is facing over 400 felony charges for allegedly conducting more than 6,000 illegal Flock searches of his wife, ex-girlfriend and other people he knew.",
-      "source_url": "https://fox59.com/news/indynews/indiana-sheriffs-deputy-arrested-for-flock-camera-misuse-intimidation-and-official-misconduct/",
-      "outcomes": [
-        "no_action_reported"
-      ],
-      "outcome_matches": [],
-      "content_hash": "sha256:91ef2d598221f8a7d5002985c17ba7f7d6149746a31d1daf9482982643430aa9",
       "first_seen_at": "2026-09-28T19:54:32.240Z",
       "last_seen_at": "2026-09-28T19:54:32.240Z",
       "status": "active",
@@ -1186,6 +1284,38 @@
       "verified": false
     },
     {
+      "id": "arizona-goodyear-263241",
+      "ij_source_id": "263241",
+      "title": "Goodyear, AZ - September 2026",
+      "location": {
+        "city": "Goodyear",
+        "state": "arizona",
+        "state_name": "Arizona"
+      },
+      "date": {
+        "text": "September 2026",
+        "iso": "2026-09-17"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Goodyear officer Kristopher Jackson resigned in the midst of an investigation into alleged misuse of Flock cameras. He was subsequently found to have violated multiple departmental policies.",
+      "source_url": "https://arizonadailyindependent.com/2026/10/23/goodyear-police-investigation-finds-former-officer-violated-flock-camera-policies/",
+      "outcomes": [
+        "resigned"
+      ],
+      "outcome_matches": [
+        "resigned"
+      ],
+      "content_hash": "sha256:7f1968ddd6200f7faee474c82de360541b0c3e4cb92212056d31af40aaf88224",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "florida-indian-river-county-261741",
       "ij_source_id": "261741",
       "title": "Indian River County, FL - September 2026",
@@ -1198,22 +1328,22 @@
         "text": "September 2026",
         "iso": "2026-09-15"
       },
-      "classification": "non_law_enforcement_use",
-      "classification_raw": "Non Law-Enforcement Use",
+      "classification": "stalking",
+      "classification_raw": "Stalking",
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Indian River County sheriff’s office sergeant John Finnegan was placed on leave after a reporter inquired about potential misuse of the Flock system.",
-      "source_url": "https://veronews.com/2026/09/14/sheriffs-sgt-on-paid-leave-amid-investigation-into-misuse-of-flock-system/",
+      "description": "Indian River County sheriff’s office sergeant John Finnegan was criminally charged after allegedly using the Flock system to look up a person he was in a relationship with hundreds of times. His misuse came to light after a reporter noticed unusual patterns in public search logs.",
+      "source_url": "https://cbs12.com/news/crime/sheriff-flowers-to-hold-press-conference-on-former-deputies-flock-misuse-arrests-indian-river-county-indian-river-county-sheriffs-office-ircso-vero-beach-sheriff-eric-flowers-john-finnegan-samuel-marcus-earman-former-deputies-arrested-deputy",
       "outcomes": [
-        "administrative_leave"
+        "charged"
       ],
       "outcome_matches": [
-        "placed on leave"
+        "charged"
       ],
-      "content_hash": "sha256:2e2d8cd8d21c6bfe8ef6aa332da7c41b22a3f6dfc5b48b039f7e3788ba2cde46",
+      "content_hash": "sha256:e573ed3d204a74b043ea4162d5c09a965b22710493517aacc2b9a261094f7ec9",
       "first_seen_at": "2026-09-15T17:24:28.237Z",
-      "last_seen_at": "2026-09-15T17:24:28.237Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
       "status": "active",
       "verified": false
     },
@@ -4022,6 +4152,40 @@
       "verified": false
     },
     {
+      "id": "indiana-georgetown-263183",
+      "ij_source_id": "263183",
+      "title": "Georgetown, IN - 2026",
+      "location": {
+        "city": "Georgetown",
+        "state": "indiana",
+        "state_name": "Indiana"
+      },
+      "date": {
+        "text": "July 2026",
+        "iso": "2026-07-01"
+      },
+      "classification": "stalking",
+      "classification_raw": "Stalking",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Georgetown officer Justin Craig was arrested and charged with multiple crimes for allegedly looking up his wife and one of her male acquaintances. The investigation was triggered by a Washington Post reporter who noticed unusual search patterns in data made public.",
+      "source_url": "https://www.wlky.com/article/georgetown-police-officer-misuse-flock-cameras/74223096",
+      "outcomes": [
+        "arrested",
+        "charged"
+      ],
+      "outcome_matches": [
+        "arrested",
+        "charged"
+      ],
+      "content_hash": "sha256:22a820cb4c5806bd05ff29fe37a62f9755852bef0211a2f31294b583d58e3331",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "georgia-albany-259810",
       "ij_source_id": "259810",
       "title": "Albany, GA - July 2026",
@@ -5511,15 +5675,15 @@
       "manufacturer": "flock",
       "manufacturer_name": "Flock",
       "is_flock": true,
-      "description": "Based on a Flock capture, officers mistook an innocent driver’s car for one that was at the scene of a deadly accident. The driver was jailed for 13 days.",
+      "description": "Based on a Flock capture, officers mistook innocent driver Lindsey Isaacs’ car for one that was at the scene of a deadly accident. Isaacs was jailed for 13 days before her lawyer was able to prove her innocence and get her released.",
       "source_url": "https://www.wesh.com/article/woman-wrongfully-arrested-in-deadly-i-4-crash-speaks-out-after-charges-dropped/71393304",
       "outcomes": [
         "no_action_reported"
       ],
       "outcome_matches": [],
-      "content_hash": "sha256:51f6a3d168f73975e03485e5528eaf2f0cf40f75f490cd878879bfc596fb3c42",
+      "content_hash": "sha256:5fddf76d9a1298a3d395505532733217a9f3755dade8f368fd028abfa010245b",
       "first_seen_at": "2026-09-05T16:38:34.372Z",
-      "last_seen_at": "2026-09-05T16:38:34.372Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
       "status": "active",
       "verified": false
     },
@@ -7118,6 +7282,38 @@
       "verified": false
     },
     {
+      "id": "georgia-thomaston-263182",
+      "ij_source_id": "263182",
+      "title": "Thomaston, GA - 2025",
+      "location": {
+        "city": "Thomaston",
+        "state": "georgia",
+        "state_name": "Georgia"
+      },
+      "date": {
+        "text": "June 2025",
+        "iso": "2025-06-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "An unnamed Thomaston police officer was fired after using the Flock system hundreds of times to look up individuals they knew. The improper use came to light after a reporter discovered unusual patterns in the department’s search data.",
+      "source_url": "https://www.upsonbeacon.com/news/tpd-officer-fired-for-misuse-of-flock-system/article_b1eff9a7-2be8-4ae5-b7b0-5a088a72c7d1.html",
+      "outcomes": [
+        "fired"
+      ],
+      "outcome_matches": [
+        "fired"
+      ],
+      "content_hash": "sha256:d84f56cf4bed5bceec254b3f5469bb2f6bd189ccf34e3f69060dd32bb7f0bd97",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "missouri-greene-county-262977",
       "ij_source_id": "262977",
       "title": "Greene County, MO - July 2025",
@@ -7842,6 +8038,38 @@
       "verified": false
     },
     {
+      "id": "ohio-sharonville-262833",
+      "ij_source_id": "262833",
+      "title": "Sharonville, OH - December 2024",
+      "location": {
+        "city": "Sharonville",
+        "state": "ohio",
+        "state_name": "Ohio"
+      },
+      "date": {
+        "text": "December 2024",
+        "iso": "2024-12-01"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Sharonville police lieutenant Walter Cordes admitted to searching for someone he knew on the Flock system 29 times over a span of several months. He was charged with a felony.",
+      "source_url": "https://www.wlwt.com/article/sharonville-police-lieutenant-indicted-felony-flock-misuse/74123168",
+      "outcomes": [
+        "charged"
+      ],
+      "outcome_matches": [
+        "charged"
+      ],
+      "content_hash": "sha256:45ecd38f8efd9f468661ec4a481ad1270db8e460c6346f459b8b772c92c02aa3",
+      "first_seen_at": "2026-10-17T16:01:59.891Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
+      "status": "active",
+      "verified": false
+    },
+    {
       "id": "kentucky-louisville-261367",
       "ij_source_id": "261367",
       "title": "Louisville, KY - November 2024",
@@ -8120,6 +8348,38 @@
       "content_hash": "sha256:1a553410865d82acc897a8e4942c10e7916e5f1d87dfe035a17a7d6c9bdebbcc",
       "first_seen_at": "2026-10-22T17:54:29.317Z",
       "last_seen_at": "2026-10-22T17:54:29.317Z",
+      "status": "active",
+      "verified": false
+    },
+    {
+      "id": "tennessee-oak-ridge-263280",
+      "ij_source_id": "263280",
+      "title": "Oak Ridge, TN - July 2024",
+      "location": {
+        "city": "Oak Ridge",
+        "state": "tennessee",
+        "state_name": "Tennessee"
+      },
+      "date": {
+        "text": "July 2024",
+        "iso": "2024-07-08"
+      },
+      "classification": "non_law_enforcement_use",
+      "classification_raw": "Non Law-Enforcement Use",
+      "manufacturer": "flock",
+      "manufacturer_name": "Flock",
+      "is_flock": true,
+      "description": "Oak Ridge officer Timothy Buckner was suspended without pay for three days for using Flock cameras to track people on behalf of family members. He remains employed with the police department.",
+      "source_url": "https://www.wate.com/news/top-stories/oak-ridge-officer-alpr-misuse/",
+      "outcomes": [
+        "suspended"
+      ],
+      "outcome_matches": [
+        "suspended"
+      ],
+      "content_hash": "sha256:7b08fa51b6285b3a9c90c83d7c31aa28915215293770a88b68862600618a0f35",
+      "first_seen_at": "2026-11-05T20:23:49.292Z",
+      "last_seen_at": "2026-11-05T20:23:49.292Z",
       "status": "active",
       "verified": false
     },
